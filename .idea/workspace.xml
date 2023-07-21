@@ -23,10 +23,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/screenShot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\assets\screenShot" />
       <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
     </key>
@@ -56,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687447323460</updated>
       <workItem from="1687447330230" duration="93000" />
-      <workItem from="1689845585458" duration="5777000" />
+      <workItem from="1689845585458" duration="12592000" />
     </task>
     <servers />
   </component>
