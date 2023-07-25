@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/screenShot" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web Development/html-intellij/Hypertext-Markup-Language/HTML" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -46,7 +47,9 @@
       <workItem from="1687447330230" duration="93000" />
       <workItem from="1689845585458" duration="12818000" />
       <workItem from="1689963218782" duration="1346000" />
-      <workItem from="1689999678873" duration="1250000" />
+      <workItem from="1689999678873" duration="4035000" />
+      <workItem from="1690109393244" duration="1963000" />
+      <workItem from="1690297798963" duration="5924000" />
     </task>
     <servers />
   </component>
