@@ -6,7 +6,7 @@
     <title>Assignment 1</title >
     <link rel="stylesheet" href="assets/necolas.github.io_normalize.css_8.0.1_normalize.css">
     <style>
-        body>section>section:first-child{
+        body>section>section>section:first-child{
             background-color: red;
             width: 50vw;
             height: 50vh;
@@ -15,7 +15,7 @@
             left: 0;
             top:0;
         }
-        body>section>section:nth-child(2){
+        body>section>section>section:nth-child(2){
             background-color: green;
             width: 50vw;
             height: 50vh;
@@ -24,7 +24,7 @@
             right: 0;
             top:0;
         }
-        body>section>section:nth-child(3){
+        body>section>section>section:nth-child(3){
             background-color: orange;
             width: 50vw;
             height: 50vh;
@@ -33,7 +33,7 @@
             left: 0;
             bottom:0;
         }
-        body>section>section:last-child{
+        body>section>section>section:last-child{
             background-color: deeppink;
             width: 50vw;
             height: 50vh;
@@ -42,7 +42,7 @@
             right: 0;
             bottom:0;
         }
-        body>div{
+        body>section>div{
             background-color: snow;
             width: 10vw;
             height: 20vh;
@@ -53,7 +53,7 @@
             left: 0;
             right: 0;
         }
-        body>div>div{
+        body>section>div>div{
             background-color: red;
             border-radius: 100%;
             width: 50%;
@@ -65,7 +65,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:first-child>div{
+        body>section>section>section:first-child>div{
             background-color: snow;
             width: 30%;
             height: 60%;
@@ -77,7 +77,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:nth-child(2)>div{
+        body>section>section>section:nth-child(2)>div{
             background-color: snow;
             width: 30%;
             height: 60%;
@@ -89,7 +89,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:nth-child(3)>div{
+        body>section>section>section:nth-child(3)>div{
             background-color: snow;
             width: 30%;
             height: 60%;
@@ -101,7 +101,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:last-child>div{
+        body>section>section>section:last-child>div{
             background-color: snow;
             width: 30%;
             height: 60%;
@@ -113,7 +113,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:first-child>div>div{
+        body>section>section>section:first-child>div>div{
             background-color: red;
             width: 8vw;
             height: 16vh;
@@ -124,7 +124,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:nth-child(2)>div>div{
+        body>section>section>section:nth-child(2)>div>div{
             background-color: red;
             width: 8vw;
             height: 16vh;
@@ -135,7 +135,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:nth-child(3)>div>div{
+        body>section>section>section:nth-child(3)>div>div{
             background-color: red;
             width: 8vw;
             height: 16vh;
@@ -146,7 +146,7 @@
             left: 0;
             right: 0;
         }
-        body>section>section:last-child>div>div{
+        body>section>section>section:last-child>div>div{
             background-color: red;
             width: 8vw;
             height: 16vh;
@@ -161,8 +161,8 @@
             background-color: snow;
             left: 0;
             top: 0;
-            width: 8%;
-            height: 16%;
+            width: 6%;
+            height: 10%;
             position: absolute;
             margin: auto;
             border-bottom-right-radius: 200px;
@@ -171,8 +171,8 @@
             background-color: snow;
             right: 0;
             top: 0;
-            width: 8%;
-            height: 16%;
+            width: 6%;
+            height: 10%;
             position: absolute;
             margin: auto;
             border-bottom-left-radius: 200px
@@ -181,8 +181,8 @@
             background-color: snow;
             left: 0;
             bottom: 0;
-            width: 8%;
-            height: 16%;
+            width: 6%;
+            height: 10%;
             position: absolute;
             margin: auto;
             border-top-right-radius: 200px
@@ -191,48 +191,114 @@
             background-color: snow;
             right: 0;
             bottom: 0;
-            width: 8%;
-            height: 16%;
+            width: 6%;
+            height: 10%;
             position: absolute;
             margin: auto;
             border-top-left-radius: 200px
         }
-
+        .coner5{
+            background-color: snow;
+            width: 10%;
+            height: 10%;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 250px;
+            border-top-right-radius: 250px;
+        }
+        .coner6{
+            background-color: snow;
+            width: 10%;
+            height: 10%;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 250px;
+            border-bottom-right-radius: 250px;
+        }
+        body>section{
+            position: relative;
+            width: 100vw;
+            height:100vh;
+        }
     </style>
 </head>
 <body>
 <section>
-    <section>
+    <section >
+         <section>
         <div>
             <div></div>
         </div>
     </section>
-    <section>
+         <section>
         <div>
             <div></div>
         </div>
     </section>
-    <section>
+         <section>
         <div>
             <div></div>
         </div>
     </section>
-    <section>
+         <section>
         <div>
             <div></div>
         </div>
     </section>
-</section>
-<div>
+    </section>
+    <div>
     <div></div>
 </div>
-<section>
+    <section>
     <div class="coner1"></div>
     <div class="coner2"></div>
     <div class="coner3"></div>
     <div class="coner4"></div>
-    <div></div>
-    <div></div>
+    <div class="coner5"></div>
+    <div class="coner6"></div>
+</section>
+</section>
+
+<section>
+    <section >
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+    </section>
+    <div>
+        <div></div>
+    </div>
+    <section>
+        <div class="coner1"></div>
+        <div class="coner2"></div>
+        <div class="coner3"></div>
+        <div class="coner4"></div>
+        <div class="coner5"></div>
+        <div class="coner6"></div>
+    </section>
 </section>
 </body>
 </html>
