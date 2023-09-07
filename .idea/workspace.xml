@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,15 +26,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web Development/html-intellij/Hypertext-Markup-Language/HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Case_6(Grid)/assets/image" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Case_6(Grid)\assets\image" />
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Case_6(Grid)" />
       <recent name="E:\Work Zone\MyPortfolio\assets\screenShot" />
       <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
@@ -34,6 +45,19 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,7 +73,16 @@
       <workItem from="1689999678873" duration="4035000" />
       <workItem from="1690109393244" duration="1963000" />
       <workItem from="1690297798963" duration="7032000" />
-      <workItem from="1690428388797" duration="4306000" />
+      <workItem from="1690428388797" duration="5158000" />
+      <workItem from="1690454394441" duration="621000" />
+      <workItem from="1690543501132" duration="53000" />
+      <workItem from="1690604976291" duration="817000" />
+      <workItem from="1690772747062" duration="4072000" />
+      <workItem from="1690875582213" duration="960000" />
+      <workItem from="1690985365342" duration="1733000" />
+      <workItem from="1691159195755" duration="1075000" />
+      <workItem from="1692556742526" duration="657000" />
+      <workItem from="1694100021813" duration="2763000" />
     </task>
     <servers />
   </component>

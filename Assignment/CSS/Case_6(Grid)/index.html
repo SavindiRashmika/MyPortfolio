@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case_6 grid layout</title>
+    <link rel="stylesheet" href="assets/necolas.github.io_normalize.css_8.0.1_normalize.css">
+
+    <style>
+        section{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        div{
+            border: 1px solid white;
+            background: url("assets/image/images (6).jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .div1{
+            grid-row: 1/2;
+            grid-column: 1/3;
+        }
+        .div2{
+            grid-row: 1/4;
+            grid-column: 4/5;
+        }
+        .div3{
+            grid-row: 3/4;
+            grid-column: 2/4;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="div1"></div>
+    <div></div>
+    <div></div>
+    <div class="div2"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="div3"></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>
