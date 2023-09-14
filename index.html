@@ -8,12 +8,130 @@
     <meta name="owner" content="Savindi Rashmika">
     <meta name="auther" content="Nethmi">
     <meta name="theme-color" content="red">
-    <meta name="robots" content="index,follow">  
+    <meta name="robots" content="index,follow">
+
+    <style>
+        *{
+            /*padding: 0;*/
+            margin: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            text-decoration: none;
+            list-style: none;
+            font-family: Calibri;
+            color: black;
+        }
+        span{
+            color: orangered;
+        }
+        .nav1{
+            position: fixed;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+        ul{
+            display: flex;
+        }
+        header>nav>ul>li>a{
+            font-size: 17px;
+            margin: 40px;
+        }
+        .page1{
+            background: url("assets/background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            padding: 120px;
+            /*filter: brightness(25%);*/
+        }
+        .hgroup{
+            position: absolute;
+            top: 45%;
+            left: 45%;
+           font-size: 38px;
+        }
+        .nav2{
+            position: absolute;
+            bottom: 20%;
+            left: 45%;
+        }
+        .page2{
+            height: 100vh;
+            background-color:  #454545;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            position: relative;
+            /*font-size: 0;*/
+        }
+        .page2-div{
+            width: 350px;
+            height: 450px;
+            background-color: black;
+            position: absolute;
+            right: 100px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+        #img2{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        article{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        article>p{
+            margin: 200px;
+            font-size: 30px;
+            line-height: 40px;
+            color: white;
+        }
+        section>h1{
+            height: 100px;
+            font-family: Calibri;
+            font-size: 50px;
+            margin: 70px;
+            color: white;
+        }
+        .page3{
+            background-color: #000000;
+            height: 100vh;
+            color: white;
+            display: flex;
+        }
+        footer{
+            height: 10vh;
+            background-color: black;
+            color: white;
+        }
+        .page4{
+            background-color: #454545;
+            height: 100vh;
+            color: white;
+            display: flex;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="nav1">
             <h2> <span>Port</span>folio</h2>
             <ul>
                 <li> <a href="#About me"><span>About </span>me</a></li>
@@ -27,17 +145,17 @@
 
     <main>
 <!-- page 1 -->
-        <section>
+        <section class="page1">
             <section>
                 <img src="assets/WhatsApp%20Image%202023-06-23%20at%2009.31.13%20(2).jpeg" width="400" height="400">
-                <hgroup>
+                <hgroup class="hgroup">
                     <h3><span><sup>Hello, I'm</sup></span></h3>
                     <h1>Savindi Rashmika Wadanambi.</h1>
                     <p>A full stack <span>developer.</span></p>
                 </hgroup>
             </section>  
             <section>
-                <nav>
+                <nav class="nav2">
                      <img usemap="#logo" src="assets/media/icons8-facebook-circled-48.png" width="30">
                      <img usemap="#logo1" src="assets/media/icons8-linkedin-circled-50.png" width="30">
                      <img usemap="#logo2" src="assets/media/icons8-github-48.png" width="30">
@@ -61,20 +179,20 @@
         </section>
 
 <!-- page 2 -->
-        <section >
-            <h1><strong><dfn  id="About me">AbOUT ME</dfn></strong></h1>
+        <section class="page2">
+            <h1><strong><dfn  id="About me"><span>AbOUT</span> ME</dfn></strong></h1>
             <article>
                 <p>My name is Savindi Rashmika wadanambi.</br>
                     I'm First Year student at Institute of Software </br>
                     Engineering ( <abbr title="Institute of Software Engineering">IJSE</abbr> ).Currently i'm learning more </br>
                     about new technologies and concepts.</p>
             </article>
-            <div>
-                <img src="assets/WhatsApp%20Image%202023-06-26%20at%2015.55.52%20(3).jpeg" alt="My photo" width="300">
+            <div class="page2-div">
+                <img id="img2" src="assets/WhatsApp%20Image%202023-06-26%20at%2015.55.52%20(3).jpeg" alt="My photo" width="300">
             </div>
         </section>
 <!-- page 3 -->
-        <section>
+        <section class="page3">
             <h1><dfn id="Expirience"> <strong>MY EXPIRIENCE</strong></dfn></h1>
             <section>
                 <h2><span>My Education Skills</span></h2>
@@ -115,7 +233,7 @@
             </section>
         </section>
 <!-- page 4 -->
-        <section>
+        <section class="page4">
             <h1><dfn id="Work"><strong>MY <span>PROJECT</span></strong></dfn></h1>
             <p>
                 Each project demonstrates my ability to conceptualize,design and develop innovative solutions that meet specific
@@ -150,7 +268,7 @@
         </section>
   </main>
 <!--page 7-->
-        <section>
+        <section class="page1">
             <h1><dfn id="Contact me"><strong>Contact with Me</strong></dfn></h1>
             <form>
                 <fieldset>
