@@ -52,11 +52,12 @@
         }
         .hgroup{
             position: absolute;
-            top: 45%;
+            top: 40%;
             left: 45%;
            font-size: 38px;
         }
         .nav2{
+            display: flex;
             position: absolute;
             bottom: 20%;
             left: 45%;
@@ -104,17 +105,18 @@
             color: white;
         }
         section>h1{
+            display: inline-block;
             height: 100px;
-            font-family: Calibri;
+            font-family: Madhura;
             font-size: 50px;
-            margin: 70px;
+            position: relative;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
             color: white;
-        }
-        .page3{
-            background-color: #000000;
-            height: 100vh;
-            color: white;
-            display: flex;
+            margin-top: 27px;
+            margin-bottom: 0px;
         }
         footer{
             height: 10vh;
@@ -126,6 +128,80 @@
             height: 100vh;
             color: white;
             display: flex;
+        }
+        .div1{
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: orange ;
+           position: relative;
+            top: 10px;
+        }
+        .hello-div{
+            width: 180px;
+            height: 50px;
+            background-color: orangered;
+            text-align: center;
+            border-radius: 10%;
+            margin-bottom: 20px;
+        }
+
+       /*page3*/
+        .page3{
+            background-color: #000000;
+            height: 150vh;
+            display: flex;
+            flex-direction: column;
+        }
+       .page3-div1{
+           position: relative;
+           width: 100px;
+           height: 100px;
+           border-radius: 100%;
+           border: 2px dashed orangered;
+           margin: 20px;
+           display: flex;
+           flex-direction: column;
+           left: 45%;
+       }
+       .page3-img1{
+           position: absolute;
+           margin: auto;
+           top: 0;
+           bottom: 0;
+           left: 17px;
+       }
+       .page3-div2{
+           width: 90px;
+           height: 90px;
+           border-radius: 10%;
+           border: 1px double whitesmoke;
+           text-align: center;
+           padding-top: 10px;
+       }
+       .page3-section1-p{
+           color: white;
+           margin-top: 50px;
+           font-size: 30px;
+       }
+       .page3-section1{
+           display: flex;
+           flex-direction: column;
+           margin: 50px;
+       }
+       .page3-section2{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           margin-top: 50px;
+       }
+       .page3-h2{
+           font-size: 40px;
+           margin-top: 10px;
+       }
+        strong{
+            color: white;
+            display: inline-block;
         }
     </style>
 </head>
@@ -150,16 +226,24 @@
             <section>
                 <img src="assets/WhatsApp%20Image%202023-06-23%20at%2009.31.13%20(2).jpeg" width="400" height="400">
                 <hgroup class="hgroup">
+                    <div class="hello-div">
                     <h3><span><sup>Hello, I'm</sup></span></h3>
+                    </div>
                     <h1>Savindi Rashmika Wadanambi.</h1>
                     <p>A full stack <span>developer.</span></p>
                 </hgroup>
             </section>  
             <section>
                 <nav class="nav2">
+                    <div class="div1">
                      <img usemap="#logo" src="assets/media/icons8-facebook-circled-48.png" width="30">
+                    </div>
+                    <div class="div1">
                      <img usemap="#logo1" src="assets/media/icons8-linkedin-circled-50.png" width="30">
+                    </div>
+                    <div class="div1">
                      <img usemap="#logo2" src="assets/media/icons8-github-48.png" width="30">
+                    </div>
                 </nav>
                 <map name="logo">
                     <area shape="rect" coords="0,0,50,50" target="_blank" href="https://web.facebook.com/profile.php?id=100085419610364" alt="facebook logo">
@@ -196,41 +280,57 @@
         <section class="page3">
             <h1><dfn id="Expirience"> <strong>MY EXPIRIENCE</strong></dfn></h1>
             <section>
-                <h2><span>My Education Skills</span></h2>
-                <div>
-                <img src="assets/Graduation-cap-illustration-on-transparent-background-PNG.png" width="60">
+                <h2 class="page3-h2"><span>My Education Skills</span></h2>
+                <div class="page3-div1">
+                <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG.png" width="60">
                 <p>Passed the O/L  Exam<br>
                     2017
                 </p>
-                  </div>
-                <div>
-                    <img src="assets/Graduation-cap-illustration-on-transparent-background-PNG.png" width="60">
+                </div>
+                <div class="page3-div1">
+                    <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG.png" width="60">
                     <p>Passed the A/L Exam<br>
                         (Combaind maths,Chemistry,Physics)<br>
                         2021
                     </p>
                 </div>
-                <div>
-                    <img src="assets/Graduation-cap-illustration-on-transparent-background-PNG.png" width="60">
+                <div class="page3-div1">
+                    <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG.png" width="60">
                     <p>Diploma in Software  Engineering<br>
                        <abbr title="Institute of Software Engineering-Galle">(IJSE-Galle)</abbr><br>
                         2022-2024
                     </p>
                 </div>
             </section>
-            <section >
-                <h2><span>My Programing Skills</span></h2>
-                <p>Below are all the things I learned in programming.</p>
-                <div>
-                    <img src="assets/media/figma.png" alt="figma.png" width="50">
+            <section class="page3-section1">
+                <h2 class="page3-h2"><span>My Programing Skills</span></h2>
+                <p class="page3-section1-p">Below are all the things I learned in programming.</p>
+                <section class="page3-section2">
+                     <div class="page3-div2">
+                     <img src="assets/media/figma.png" alt="figma.png" width="50">
+                     </div>
+                    <div class="page3-div2">
                     <img src="assets/media/icons8-mysql-48.png" alt="mysql.png" width="60">
+                    </div>
+                    <div class="page3-div2">
                     <img src="assets/media/SceneBuilderLogo.png" alt="sceneBuilder.png" width="60">
+                    </div>
+                    <div class="page3-div2">
                     <img src="assets/media/icons8-java-48.png" alt="java.png" width="60">
+                    </div>
+                    <div class="page3-div2">
                     <img src="assets/media/icons8-html-48.png" alt="html.png" width="60">
+                    </div>
+                    <div class="page3-div2">
                     <img src="assets/media/icons8-css-48.png" alt="css.png" width="60">
+                    </div>
+                    <div class="page3-div2">
                     <img src="assets/media/download%20(1).jpg" alt="css.png" width="55">
+                    </div>
+                    <div class="page3-div2">
                     <img src="assets/media/WhatsApp%20Image%202023-06-26%20at%2014.18.32.jpeg" alt="css.png" width="50">
-                </div>
+                    </div>
+                </section>
             </section>
         </section>
 <!-- page 4 -->
