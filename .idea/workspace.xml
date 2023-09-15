@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Graduation-cap-illustration-on-transparent-background-PNG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/car3 - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/flat-lay-photo-office-desk-with-laptop-copy-space-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/minimalistic-home-desk-design.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +37,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Work Zone\MyPortfolio\assets" />
+      <recent name="E:\Work Zone\MyPortfolio\assets\media" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_2" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\assets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Case_6(Grid)\assets\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
@@ -92,7 +88,7 @@
       <workItem from="1694594953769" duration="647000" />
       <workItem from="1694661626611" duration="12341000" />
       <workItem from="1694701598911" duration="9354000" />
-      <workItem from="1694754237291" duration="12362000" />
+      <workItem from="1694754237291" duration="21566000" />
     </task>
     <servers />
   </component>
