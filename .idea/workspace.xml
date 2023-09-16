@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Transition/Case_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Transition/Case_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case_3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,34 +33,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Transition/Case_3" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_3\assets\image" />
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_3" />
       <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_2" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\assets" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +77,8 @@
       <workItem from="1694594953769" duration="647000" />
       <workItem from="1694661626611" duration="12341000" />
       <workItem from="1694701598911" duration="9354000" />
-      <workItem from="1694754237291" duration="21566000" />
+      <workItem from="1694754237291" duration="28131000" />
+      <workItem from="1694838240620" duration="11468000" />
     </task>
     <servers />
   </component>

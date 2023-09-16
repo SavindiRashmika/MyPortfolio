@@ -81,7 +81,6 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             position: relative;
-            /*font-size: 0;*/
         }
         .page2-div{
             width: 350px;
@@ -171,6 +170,7 @@
             height: 100vh;
             color: white;
             display: flex;
+            flex-direction: column;
         }
         .div1{
             width: 45px;
@@ -211,7 +211,33 @@
             height: 400px;
         }
         figcaption{
+            display: flex;
+            flex-direction: column;
             color: white;
+        }
+        figure{
+            margin: 50px;
+            width: 300px;
+            height: 300px;
+        }
+        figure>img{
+            width: 300px;
+            height: 300px;
+        }
+        figure>h4{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        .page4-figure{
+            height: 700px;
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+            /*grid-template-columns: repeat(3, 1fr);*/
+            position: relative;
         }
         .assigment {
             height: 100vh;
@@ -290,6 +316,17 @@
             background-position: center;
             background-attachment: fixed;
             height: 100vh;
+        }
+        form{
+            width: 500px;
+            display: inline-block;
+        }
+        .downloadCV{
+            width: 200px;
+            height: 50px;
+            border-radius: 5%;
+            background-color: orangered;
+            display: inline-block;
         }
     </style>
 </head>
@@ -429,18 +466,20 @@
                 Each project demonstrates my ability to conceptualize,design and develop innovative solutions that meet specific
                 needs.
             </p>
+            <section class="page4-figure">
             <figure>
-                <img src="assets/screenShot/Screenshot%20(103).png" alt="chat application" width="200">
+                <img src="assets/screenShot/Screenshot%20(103).png" alt="chat application" >
                 <figcaption>chat Application</figcaption>
             </figure>
             <figure>
-                <img src="assets/screenShot/Screenshot%20(102).png" alt="connect four game" width="200" height="200">
+                <img src="assets/screenShot/Screenshot%20(102).png" alt="connect four game" >
                 <figcaption>connect four game</figcaption>
             </figure>
             <figure>
-                <img src="assets/screenShot/Screenshot%20(98).png" alt="car management system" width="200">
+                <img src="assets/screenShot/Screenshot%20(98).png" alt="car management system" >
                 <figcaption>car management system</figcaption>
             </figure>
+            </section>
             <h4><span>view more</span></h4>
         </section>
 <!-- page 5 -->
@@ -464,11 +503,11 @@
                 <fieldset>
                     <input type="text" placeholder="Your Name" required><br><br>
                     <input type="text" placeholder="Your Email" required><br><br>
-                    <textarea rows="4"></textarea><br><br>
+                    <textarea rows="8"></textarea><br><br>
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
-            <div>Download CV</div>
+            <div class="downloadCV">Download CV</div>
         </section>
 
 <!--    footer-->
@@ -491,11 +530,10 @@
                 <area shape="rect" coords="0,0,50,50" target="_blank" href="+94776493663" alt="whatsapp logo">
             </map>
         </section>
-
         <section>
         <p class="footer-p">Copyright<small>&COPY</small>2023 - Designed by Savindi Rashmika</p>
         </section>
-       <section>
+        <section>
            <nav>
                <ul class="footer-ul">
                    <li> <a href="#About me">About me</a></li>

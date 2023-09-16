@@ -6,28 +6,51 @@
     <link rel="stylesheet" href="assets/font-awsome/css/all.min.css">
     <link rel="stylesheet" href="assets/necolas.github.io_normalize.css_8.0.1_normalize.css">
   <style>
-    body{
-      margin-left: 0;
-    }
-    div {
-        width: 200px;
+      section{
+          width: 300px;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          position: relative;
+          right: 250px;
+
+      }
+    section>div {
+        width: 300px;
         height: 50px;
         background-color: #ff253a;
-        margin-top: 20px;
+        transition-property: all;
         transition-duration: 3s;
-        transition-property: width;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        left: 0px;
+        right: 0px;
+        position: relative;
+        box-shadow: 0px 0px 10px 5px black;
     }
-    div:hover{
+    section>div:hover{
+        position: relative;
+        left: 250px;
       transition-duration: 3s;
       transition-property: width;
+    }
+    section>div>h2,p{
+        margin: 0;
+        padding: 10px;
+        font-size: 30px;
     }
   </style>
 </head>
 <body>
-<div>Menu 1<i class="fa-solid fa-house"></i></div>
-<div>Menu 2<i class="fa-solid fa-house"></i></div>
-<div>Menu 3<i class="fa-solid fa-house"></i></div>
-<div>Menu 4<i class="fa-solid fa-house"></i></div>
-<div>Menu 5<i class="fa-solid fa-house"></i></div>
+<section>
+    <div><h2>Menu 1</h2><p><i class="fa-solid fa-house"></i></p></div>
+    <div><h2>Menu 2</h2><p><i class="fa-solid fa-house"></i></p></div>
+    <div><h2>Menu 3</h2><p><i class="fa-solid fa-house"></i></p></div>
+    <div><h2>Menu 4</h2><p><i class="fa-solid fa-house"></i></p></div>
+    <div><h2>Menu 5</h2><p><i class="fa-solid fa-house"></i></p></div>
+</section>
 </body>
 </html>
