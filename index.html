@@ -21,11 +21,12 @@
             scroll-behavior: smooth;
             text-decoration: none;
             list-style: none;
-            /*font-family: Calibri;*/
-            color: black;
         }
         span{
             color: orangered;
+        }
+        .home{
+            border-radius: 100%;
         }
         .nav1{
             position: fixed;
@@ -125,22 +126,19 @@
         }
         article>p{
             margin: 200px;
-            font-size: 30px;
+            font-size: 25px;
             line-height: 40px;
             color: white;
         }
         section>h1{
             display: inline-block;
             font-family: "Book Antiqua";
-            font-size: 40px;
+            font-size: 38px;
             text-align: center;
             color: white;
-            margin-top: 27px;
+           margin: 50px;
         }
-        section>h1:hover{
-            color: white;
-            text-decoration: underline;
-        }
+
         footer{
             height: 20vh;
             background-color: black;
@@ -152,13 +150,14 @@
             text-align: center;
             position: absolute;
             left: 38%;
-            /*right: 0;*/
-            /*top: 10px;*/
             bottom: 10px;
         }
         .media{
-            width: 40px;
-            height: 40px;
+            width: 37px;
+            height: 36px;
+            position: relative;
+            left: 3px;
+            top: 4px;
         }
         .media-footer{
             position: absolute;
@@ -189,21 +188,27 @@
             color: white;
             display: flex;
             flex-direction: column;
+            padding-left: 40px;
         }
         .div1{
-            width: 45px;
-            height: 45px;
+            width: 50px;
+            height: 50px;
             border-radius: 100%;
             background-color: black ;
             position: relative;
             left: 3px;
             top: 10px;
         }
+        .div1:hover{
+            background-image: linear-gradient(to bottom,rgba(240, 80, 3, 1), rgba(2, 3, 0,1));
+           /*background-color: honeydew;*/
+        }
         .media-footer:hover{
            transform: scale(1.3);
         }
         h3{
-            font-size: 25px;
+            color: black;
+            font-size: 20px;
             padding: 5px;
         }
         .hello-div{
@@ -211,7 +216,7 @@
             height: 40px;
             background-color: orangered;
             text-align: center;
-            border-radius: 10%;
+            border-radius: 10px;
             margin-bottom: 20px;
         }
         .page6 {
@@ -220,6 +225,7 @@
             display: flex;
             position: relative;
             flex-direction: column;
+            padding-left: 40px;
         }
         .photo{
             position: absolute;
@@ -238,12 +244,12 @@
         }
         figure{
             margin: 50px;
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
         figure>img{
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
         figure>h4{
             position: absolute;
@@ -273,6 +279,7 @@
             height: 180vh;
             display: flex;
             flex-direction: column;
+            padding-left: 40px;
         }
        .page3-div1{
            position: relative;
@@ -324,7 +331,7 @@
            margin-top: 50px;
        }
        .page3-h2{
-           font-size: 38px;
+           font-size: 32px;
            margin-top: 15px;
        }
        .page3-h2:hover{
@@ -352,11 +359,28 @@
             padding-left: 40px;
         }
         .downloadCV{
-            width: 200px;
-            height: 50px;
-            border-radius: 5%;
+            width: 180px;
+            height: 40px;
+            text-align: center;
+            border-radius: 15px;
             background-color: orangered;
             display: inline-block;
+            position: absolute;
+            bottom: 27%;
+            left: 16%;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 700;
+            color: black;
+            padding-top: 10px;
+        }
+        .downloadCV:hover{
+            background-image: linear-gradient(to bottom,rgba(240, 80, 3, 1), rgba(2, 3, 0,1));
+            color: white;
+            border-radius: 15px;
+            /*border: 2px double orangered;*/
+            box-shadow: 0 3px 20px 0px orangered;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 700;
         }
         .page4-p{
             color: white;
@@ -371,6 +395,8 @@
             position: relative;
             height: 100vh;
             background-color: rgba(14, 14, 14, 1);
+            padding-left: 50px;
+            padding-right: 50px;
         }
         form input,form textarea{
             width: 500px;
@@ -386,18 +412,19 @@
         form{
             display: inline-block;
             position: relative;
-            top: 80px;
-            left: 20%;
+            /*top: 80px;*/
+            left: 30%;
             margin: 0;
         }
         .button {
             width: 200px;
             height: 40px;
             background-color: orangered;
-            border: 2px solid black;
+            border: 2px solid orangered;
             border-radius: 20px;
             color: black;
             font-family: "Ubuntu",sans-serif;
+            font-weight: 700;
         }
         .button:hover{
             background-color: black;
@@ -409,6 +436,25 @@
         }
         .page7-form{
             position: relative;
+        }
+        .page7-h1{
+            position: relative;
+           left: 35%;
+        }
+        img:hover{
+            transform: scale(1);
+        }
+        .page8-h1{
+            color: white;
+            position: relative;
+            left: 20%;
+            margin: 50px;
+        }
+        .page8-section{
+            display: flex;
+            justify-content: center;
+            border: 1px solid grey;
+            height: 60vh;
         }
     </style>
 </head>
@@ -432,10 +478,10 @@
 <!-- page 1 -->
         <section class="page1">
             <section>
-                <img src="assets/WhatsApp%20Image%202023-06-23%20at%2009.31.13%20(2).jpeg" width="400" height="400">
+                <img class="home" src="assets/WhatsApp%20Image%202023-06-23%20at%2009.31.13%20(2).jpeg" width="400" height="400">
                 <hgroup class="hgroup">
                     <div class="hello-div">
-                    <h3><span><sup>Hello, I'm</sup></span></h3>
+                    <h3><sup>Hello, I'm</sup></h3>
                     </div>
                     <h1>Savindi Rashmika Wadanambi.</h1>
                     <p>A full stack <span>developer.</span></p>
@@ -470,16 +516,16 @@
             <div></div>
 
         </section>
-
 <!-- page 2 -->
         <section class="page2">
             <h1><strong><dfn  id="About me"><span>AbOUT</span> ME</dfn></strong></h1>
             <article>
                 <p>My name is Savindi Rashmika Wadanambi.</br>
                     I'm First Year student at Institute of Software </br>
-                    Engineering ( <abbr title="Institute of Software Engineering">IJSE</abbr> ).Currently i'm learning more </br>
+                    Engineering ( <abbr style="color: white" title="Institute of Software Engineering">IJSE</abbr> ).Currently i'm learning more </br>
                     about new technologies and concepts.</p>
             </article>
+            <div class="downloadCV"><b>Download CV</b></div>
             <div class="page2-div">
                 <img id="img2" src="assets/WhatsApp%20Image%202023-06-26%20at%2015.55.52%20(3).jpeg" alt="My photo" width="300">
             </div>
@@ -544,19 +590,21 @@
         </section>
 <!-- page 8-->
         <section class="page8">
-            <h1><strong><dfn  id="Service"><span>My</span> Service</dfn></strong></h1>
-            <div>
-                <h2></h2>
+            <h1 class="page8-h1"><strong><dfn  id="Service"><span>MY</span> SERVICE</dfn></strong></h1>
+            <section class="page8-section">
+            <div class="page8-div">
+                <h2>Web Design</h2>
                 <p></p>
             </div>
-            <div>
-                <h2></h2>
+            <div class="page8-div">
+                <h2>Web Development</h2>
                 <p></p>
             </div>
-            <div>
-                <h2></h2>
+            <div class="page8-div">
+                <h2>Ui/Ux Design</h2>
                 <p></p>
             </div>
+            </section>
         </section>
 <!-- page 4 -->
         <section class="page4">
@@ -597,15 +645,14 @@
   </main>
 <!--page 7-->
         <section class="page7">
-            <h1><dfn id="Contact me"><strong>Contact Me</strong></dfn></h1>
+            <h1 class="page7-h1"><dfn id="Contact me"><strong>CONTACT ME</strong></dfn></h1>
             <section class="page7-form">
                 <form>
                     <input type="text" placeholder="Your Name" required><br><br>
                     <input type="text" placeholder="Your Email" required><br><br>
-                    <textarea cols="30" rows="10"></textarea><br><br>
+                    <textarea cols="30" rows="10" placeholder="Enter Your Massage"></textarea><br><br>
                     <button class="button" type="submit">Submit</button>
                  </form>
-<!--                <div class="downloadCV"><b>Download CV</b></div>-->
             </section>
         </section>
 
