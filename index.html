@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width initial scale=1">
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
         *{
             padding: 0;
@@ -34,6 +35,7 @@
             align-items: center;
             padding-top: 30px;
             padding-left: 20px;
+            padding-right: 30px;
             background-color: rgba(0, 0, 0, 0.5);
             z-index: 1;
         }
@@ -47,7 +49,7 @@
             font-size: 17px;
             font-family: 'Ubuntu',sans-serif;
             font-weight: 500;
-            margin: 40px;
+            margin: 25px;
             color: white;
         }
         li a:hover{
@@ -83,6 +85,9 @@
             bottom: 20%;
             left: 45%;
         }
+        .nav2:hover{
+            transform: scale(1);
+        }
         .page2{
             height: 100vh;
             background-color:  rgba(14, 14, 14, 1);
@@ -94,10 +99,7 @@
         .page2-div{
             width: 350px;
             height: 450px;
-            background: url("assets/rect.png");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            background-image: linear-gradient(to bottom,rgba(240, 100, 3, 1), rgba(2, 3, 0,1));
             position: absolute;
             right: 100px;
             top: 0;
@@ -169,7 +171,7 @@
         .footer-ul{
             color: white;
             position: absolute;
-            left: 36%;
+            left: 34%;
             bottom: 24%;
             margin: 10px;
         }
@@ -182,7 +184,7 @@
             margin: 10px;
         }
         .page4{
-            background-color: #454545;
+            background-color: black;
             height: 100vh;
             color: white;
             display: flex;
@@ -196,6 +198,9 @@
             position: relative;
             left: 3px;
             top: 10px;
+        }
+        .media-footer:hover{
+           transform: scale(1.3);
         }
         h3{
             font-size: 25px;
@@ -322,11 +327,15 @@
            font-size: 38px;
            margin-top: 15px;
        }
+       .page3-h2:hover{
+           color: orangered;
+           text-decoration: underline;
+       }
        .page3-section1-p1{
            color: white;
            position: relative;
            left: 152%;
-           width: 200px;
+           width: 400px;
            font-size: 19px;
        }
         strong{
@@ -340,10 +349,7 @@
             background-position: center;
             background-attachment: fixed;
             height: 100vh;
-        }
-        form{
-            width: 500px;
-            display: inline-block;
+            padding-left: 40px;
         }
         .downloadCV{
             width: 200px;
@@ -357,12 +363,52 @@
             font-size: 20px;
             left: 10%;
         }
-        .page4-form{
-            display: flex;
-            flex-direction: row;
-        }
         .footer-ul li{
             box-shadow: #454545;
+        }
+        /*page8*/
+        .page8{
+            position: relative;
+            height: 100vh;
+            background-color: rgba(14, 14, 14, 1);
+        }
+        form input,form textarea{
+            width: 500px;
+            padding: 17px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-size: 1rem;
+            /*margin-bottom: 0.7rem;*/
+            border-radius: 10px;
+        }
+        form{
+            display: inline-block;
+            position: relative;
+            top: 80px;
+            left: 20%;
+            margin: 0;
+        }
+        .button {
+            width: 200px;
+            height: 40px;
+            background-color: orangered;
+            border: 2px solid black;
+            border-radius: 20px;
+            color: black;
+            font-family: "Ubuntu",sans-serif;
+        }
+        .button:hover{
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            border: 2px double orangered;
+            font-family: "Ubuntu",sans-serif;
+            font-weight: 700;
+        }
+        .page7-form{
+            position: relative;
         }
     </style>
 </head>
@@ -374,6 +420,7 @@
             <ul>
                 <li> <a href="#About me"><span>About </span>me</a></li>
                 <li> <a href="#Expirience">Expirience</a></li>
+                <li><a href="#Service">Service</a></li>
                 <li> <a href="#Work">Work</a></li>
                 <li> <a href="#Certificate">Certificate</a></li>
                 <li> <a href="#Contact me">Contact me</a></li>
@@ -428,7 +475,7 @@
         <section class="page2">
             <h1><strong><dfn  id="About me"><span>AbOUT</span> ME</dfn></strong></h1>
             <article>
-                <p>My name is Savindi Rashmika wadanambi.</br>
+                <p>My name is Savindi Rashmika Wadanambi.</br>
                     I'm First Year student at Institute of Software </br>
                     Engineering ( <abbr title="Institute of Software Engineering">IJSE</abbr> ).Currently i'm learning more </br>
                     about new technologies and concepts.</p>
@@ -444,13 +491,13 @@
                 <h2 class="page3-h2"><span>My Education Skills</span></h2>
                 <div class="page3-div1">
                 <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG%201.png" width="60">
-                <p class="page3-section1-p1">Passed the O/L  Exam<br>
+                <p class="page3-section1-p1">Passed the Ordinary Leval Examination<br>
                     2017
                 </p>
                 </div>
                 <div class="page3-div1">
                     <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG%201.png" width="60">
-                    <p class="page3-section1-p1">Passed the A/L Exam<br>
+                    <p class="page3-section1-p1">Passed the Advance Leval Examination<br>
                         (Combaind maths,Chemistry,Physics)<br>
                         2021
                     </p>
@@ -495,6 +542,22 @@
                 </section>
             </section>
         </section>
+<!-- page 8-->
+        <section class="page8">
+            <h1><strong><dfn  id="Service"><span>My</span> Service</dfn></strong></h1>
+            <div>
+                <h2></h2>
+                <p></p>
+            </div>
+            <div>
+                <h2></h2>
+                <p></p>
+            </div>
+            <div>
+                <h2></h2>
+                <p></p>
+            </div>
+        </section>
 <!-- page 4 -->
         <section class="page4">
             <h1><dfn id="Work"><strong>MY <span>PROJECT</span></strong></dfn></h1>
@@ -535,16 +598,14 @@
 <!--page 7-->
         <section class="page7">
             <h1><dfn id="Contact me"><strong>Contact Me</strong></dfn></h1>
-            <section class="page4-form">
-            <form>
-                <fieldset>
+            <section class="page7-form">
+                <form>
                     <input type="text" placeholder="Your Name" required><br><br>
                     <input type="text" placeholder="Your Email" required><br><br>
-                    <textarea rows="8"></textarea><br><br>
-                    <button type="submit">Submit</button>
-                </fieldset>
-            </form>
-                <div class="downloadCV"><b>Download CV</b></div>
+                    <textarea cols="30" rows="10"></textarea><br><br>
+                    <button class="button" type="submit">Submit</button>
+                 </form>
+<!--                <div class="downloadCV"><b>Download CV</b></div>-->
             </section>
         </section>
 
