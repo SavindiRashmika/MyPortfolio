@@ -31,14 +31,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mySampleHTML/myTest_web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_3\assets\image" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_3" />
-      <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_2" />
     </key>
@@ -78,7 +78,8 @@
       <workItem from="1694754237291" duration="28131000" />
       <workItem from="1694838240620" duration="11672000" />
       <workItem from="1694872220705" duration="15185000" />
-      <workItem from="1694925715090" duration="23203000" />
+      <workItem from="1694925715090" duration="25587000" />
+      <workItem from="1694978617402" duration="626000" />
     </task>
     <servers />
   </component>

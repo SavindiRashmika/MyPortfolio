@@ -23,7 +23,7 @@
             list-style: none;
         }
         span{
-            color: orangered;
+            color: rgba(240, 80, 3, 1);
         }
         .home{
             border-radius: 100%;
@@ -54,7 +54,7 @@
             color: white;
         }
         li a:hover{
-            color: orangered;
+            color: rgba(240, 80, 3, 1);
             text-decoration: underline;
         }
         .page1{
@@ -136,7 +136,7 @@
             font-size: 38px;
             text-align: center;
             color: white;
-           margin: 50px;
+            margin: 50px;
         }
 
         footer{
@@ -214,7 +214,7 @@
         .hello-div{
             width: 100px;
             height: 40px;
-            background-color: orangered;
+            background-color: rgba(240, 80, 3, 1);
             text-align: center;
             border-radius: 10px;
             margin-bottom: 20px;
@@ -286,7 +286,7 @@
            width: 100px;
            height: 100px;
            border-radius: 100%;
-           border: 2px dashed orangered;
+           border: 2px dashed rgba(240, 80, 3, 1);
            margin: 20px;
            display: flex;
            flex-direction: column;
@@ -317,7 +317,7 @@
        .page3-section1-p{
            color: white;
            margin-top: 30px;
-           font-size: 30px;
+           font-size: 22px;
        }
        .page3-section1{
            display: flex;
@@ -335,7 +335,7 @@
            margin-top: 15px;
        }
        .page3-h2:hover{
-           color: orangered;
+           color: rgba(240, 80, 3, 1);
            text-decoration: underline;
        }
        .page3-section1-p1{
@@ -363,7 +363,7 @@
             height: 40px;
             text-align: center;
             border-radius: 15px;
-            background-color: orangered;
+            background-color: rgba(240, 80, 3, 1);
             display: inline-block;
             position: absolute;
             bottom: 27%;
@@ -419,7 +419,7 @@
         .button {
             width: 200px;
             height: 40px;
-            background-color: orangered;
+            background-color: rgba(240, 80, 3, 1);
             border: 2px solid orangered;
             border-radius: 20px;
             color: black;
@@ -447,16 +447,42 @@
         .page8-h1{
             color: white;
             position: relative;
-            left: 20%;
+            left: 35%;
             margin: 50px;
         }
         .page8-section{
             display: flex;
-            justify-content: center;
-            border: 1px solid grey;
+            justify-content: space-around;
+            border: 1px solid rgba(240, 80, 3, 1);
             height: 60vh;
+            border-radius: 10px;
+        }
+        .page8-div{
+            width: 300px;
+            height: 300px;
+            background-color: rgba(0, 0, 0, 0.5);
+            align-items: baseline;
+            margin: 30px;
+            border-radius: 20px;
+        }
+        .page8-div h2{
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .page8-div:hover{
+            border: 2px solid rgba(240, 80, 3, 1);
+        }
+        i{
+            color: white;
+            background-color: black;
+            font-size: 60px;
+            position: relative;
+            left: 40%;
+            top: 20%;
         }
     </style>
+    <link rel="stylesheet" href="assets/fontAsome/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
 
 <body>
@@ -594,14 +620,18 @@
             <section class="page8-section">
             <div class="page8-div">
                 <h2>Web Design</h2>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+
                 <p></p>
             </div>
             <div class="page8-div">
                 <h2>Web Development</h2>
+                <i class="fa-solid fa-code"></i>
                 <p></p>
             </div>
             <div class="page8-div">
                 <h2>Ui/Ux Design</h2>
+                <i class="fa-regular fa-pen-to-square"></i>
                 <p></p>
             </div>
             </section>
