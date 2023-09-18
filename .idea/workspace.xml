@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,17 +31,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Transition/Case_4/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_4\assets" />
       <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_3\assets\image" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_3" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
@@ -96,7 +94,7 @@
       <workItem from="1694872220705" duration="15185000" />
       <workItem from="1694925715090" duration="25587000" />
       <workItem from="1694978617402" duration="2667000" />
-      <workItem from="1695023973647" duration="20256000" />
+      <workItem from="1695023973647" duration="25349000" />
     </task>
     <servers />
   </component>
