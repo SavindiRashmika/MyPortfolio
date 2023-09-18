@@ -129,7 +129,7 @@ section>h1{
     margin-left: 0;
 }
 footer{
-    height: 28vh;
+    height: 22vh;
     background-color: black;
     color: white;
     position: relative;
@@ -162,7 +162,7 @@ footer{
     color: white;
     position: absolute;
     left: 34%;
-    bottom: 38%;
+    bottom: 33%;
     margin: 10px;
 }
 .footer-ul:hover{
@@ -172,14 +172,6 @@ footer{
 footer>section:nth-child(2)>nav>ul>li>a{
     color: white;
     margin: 10px;
-}
-.page4{
-    background-color: black;
-    height: 100vh;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding-left: 40px;
 }
 .div1{
     width: 50px;
@@ -211,7 +203,7 @@ h3{
     margin-bottom: 20px;
 }
 .page6 {
-    height: 100vh;
+    height: 110vh;
     background-color: black;
     display: flex;
     position: relative;
@@ -219,43 +211,50 @@ h3{
     padding-left: 40px;
 }
 .photo{
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     width: 500px;
     height: 400px;
 }
-figcaption{
+.page4{
+    background-color: black;
+    height: 110vh;
+    color: white;
     display: flex;
     flex-direction: column;
-    color: white;
+    padding-left: 40px;
+}
+figcaption{
+    color: #eeeeee;
 }
 figure{
-    margin: 50px;
     width: 250px;
-    height: 250px;
+    margin-left: 28px;
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    display: inline-block;
 }
 figure>img{
-    width: 250px;
+    width: 245px;
     height: 250px;
+    border-radius: 10px;
+}
+figure>img:hover{
+    transform: scale(1.1);
+    transition-duration: 3ms;
 }
 figure>h4{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+        margin: 20px;
+    text-align: center;
 }
 .page4-figure{
-    height: 700px;
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    /*grid-template-columns: repeat(3, 1fr);*/
-    position: relative;
+    height: 400px;
+    width: 1200px;
+    border: 1px solid #454545;
+    margin-left: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 .assigment {
     height: 100vh;
@@ -274,7 +273,7 @@ figure>h4{
     padding-right: 50px;
 }
 .page3-h1{
-    margin-left: 400px;
+    margin-left: 440px;
     margin-bottom: 3px;
     width: 200px;
 }
@@ -319,7 +318,7 @@ figure>h4{
 .page3-section1{
     display: flex;
     flex-direction: column;
-    /*margin: 40px;*/
+    margin-left: 60px;
 }
 .page3-section2{
     display: flex;
@@ -385,9 +384,27 @@ strong{
     font-weight: 700;
 }
 .page4-p{
+    margin-bottom: 42px;
     color: white;
     font-size: 20px;
-    left: 10%;
+    margin-left: 60px;
+}
+.page4-h4{
+    position: relative;
+    left: 45%;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: #ff4500;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid orangered;
+}
+.page4-h4:hover{
+    box-shadow: 0 3px 20px 0px orangered;
+    background-color: #ff4500;
+    transform: scale(1.1);
+    color: #eeeeee;
 }
 .footer-ul li{
     box-shadow: #454545;
@@ -457,6 +474,7 @@ img:hover{
     justify-content: space-around;
     border: 1px solid rgba(240, 80, 3, 1);
     height: 60vh;
+    margin-left: 60px;
     border-radius: 10px;
 }
 .page8-div{
@@ -483,4 +501,14 @@ i{
     position: relative;
     left: 40%;
     top: 20%;
+}
+.page5-figure{
+    width: 0px;
+    margin-left: 30%;
+    height: 0px;
+    border: none;
+}
+.photo{
+    position: relative;
+    left: 30%;
 }
