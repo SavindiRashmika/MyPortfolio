@@ -99,16 +99,16 @@
         }
         .page2-div{
             width: 350px;
-            height: 450px;
+            height: 467px;
             background-image: linear-gradient(to bottom,rgba(240, 100, 3, 1), rgba(2, 3, 0,1));
             position: absolute;
-            right: 100px;
+            right: 115px;
             top: 0;
-            bottom: 0;
+            bottom: 8px;
             margin: auto;
-
         }
         #img2{
+            height: 410px;
             position: absolute;
             top: 0;
             left: 0;
@@ -138,9 +138,12 @@
             color: white;
             margin: 50px;
         }
-
+        .about{
+            margin-top: 80px;
+            margin-left: 0;
+        }
         footer{
-            height: 20vh;
+            height: 28vh;
             background-color: black;
             color: white;
             position: relative;
@@ -150,14 +153,16 @@
             text-align: center;
             position: absolute;
             left: 38%;
-            bottom: 10px;
+            bottom: 20px;
         }
         .media{
             width: 37px;
             height: 36px;
             position: relative;
-            left: 3px;
-            top: 4px;
+            left: 7px;
+            top: 7px;
+            border: 3px solid grey;
+            border-radius: 100%;
         }
         .media-footer{
             position: absolute;
@@ -171,7 +176,7 @@
             color: white;
             position: absolute;
             left: 34%;
-            bottom: 24%;
+            bottom: 38%;
             margin: 10px;
         }
         .footer-ul:hover{
@@ -276,11 +281,16 @@
        /*page3*/
         .page3{
             background-color: #000000;
-            height: 180vh;
+            height: 170vh;
             display: flex;
             flex-direction: column;
-            padding-left: 50px;
+            padding-left: 90px;
             padding-right: 50px;
+        }
+        .page3-h1{
+            margin-left: 400px;
+            margin-bottom: 3px;
+            width: 200px;
         }
        .page3-div1{
            position: relative;
@@ -363,12 +373,13 @@
             height: 100vh;
             padding-left: 40px;
         }
+
         .downloadCV{
             width: 180px;
             height: 40px;
             text-align: center;
             border-radius: 15px;
-            background-color: rgba(240, 80, 3, 1);
+            background-color: orangered;
             display: inline-block;
             position: absolute;
             bottom: 27%;
@@ -497,7 +508,7 @@
             <h2> <span>Port</span>folio</h2>
             <ul>
                 <li> <a href="#About me"><span>About </span>me</a></li>
-                <li> <a href="#Expirience">Expirience</a></li>
+                <li> <a href="#Expirience">Skills</a></li>
                 <li><a href="#Service">Service</a></li>
                 <li> <a href="#Work">Work</a></li>
                 <li> <a href="#Certificate">Certificate</a></li>
@@ -515,7 +526,7 @@
                     <div class="hello-div">
                     <h3><sup>Hello, I'm</sup></h3>
                     </div>
-                    <h1>Savindi Rashmika Wadanambi.</h1>
+                    <h1>Savindi Rashmika Wadanambi</h1>
                     <p>A full stack <span>developer.</span></p>
                 </hgroup>
             </section>  
@@ -550,11 +561,11 @@
         </section>
 <!-- page 2 -->
         <section class="page2">
-            <h1><strong><dfn  id="About me"><span>AbOUT</span> ME</dfn></strong></h1>
+            <h1 class="about"><strong><dfn  id="About me">ABOUT <span>ME</span></dfn></strong></h1>
             <article>
                 <p>My name is Savindi Rashmika Wadanambi.</br>
                     I'm First Year student at Institute of Software </br>
-                    Engineering ( <abbr style="color: white" title="Institute of Software Engineering">IJSE</abbr> ).Currently i'm learning more </br>
+                    Engineering ( <abbr style="color: white" title="Institute of Software Engineering">IJSE</abbr> ). Currently I'm learning more </br>
                     about new technologies and concepts.</p>
             </article>
             <div class="downloadCV"><b>Download CV</b></div>
@@ -564,32 +575,32 @@
         </section>
 <!-- page 3 -->
         <section class="page3">
-            <h1><dfn id="Expirience"> <strong>MY EXPIRIENCE</strong></dfn></h1>
+            <h1 class="page3-h1"><dfn id="Expirience"> <strong>MY SKILLS</strong></dfn></h1>
             <section class="page3-section1">
-                <h2 class="page3-h2"><span>My Education Skills</span></h2>
+                <h2 class="page3-h2"><span>Education Skills</span></h2>
                 <div class="page3-div1">
-                <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG%201.png" width="60">
-                <p class="page3-section1-p1">Passed the Ordinary Leval Examination<br><br>
-                    2017
-                </p>
+                    <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG%201.png" width="60">
+                    <p class="page3-section1-p1">Studies Higher National Diploma in Software Engineering -
+                       <abbr title="Institute of Software Engineering-Galle">(IJSE-Galle)</abbr><br>
+                       2022 - Present
+                    </p>
                 </div>
                 <div class="page3-div1">
                     <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG%201.png" width="60">
-                    <p class="page3-section1-p1">Passed the Advance Leval Examination<br><br>
-                        (Combaind maths, Chemistry, Physics)<br><br>
+                    <p class="page3-section1-p1">Successfully completed G.C.E (A/L) Examination<br>
+                        (Combined Maths, Chemistry, Physics)<br>
                         2021
                     </p>
                 </div>
                 <div class="page3-div1">
                     <img class="page3-img1" src="assets/Graduation-cap-illustration-on-transparent-background-PNG%201.png" width="60">
-                    <p class="page3-section1-p1">Diploma in Software  Engineering<br><br>
-                       <abbr title="Institute of Software Engineering-Galle">(IJSE-Galle)</abbr><br><br>
-                        2022-2024
+                    <p class="page3-section1-p1">Successfully completed G.C.E (O/L) Examination<br>
+                        2017
                     </p>
                 </div>
             </section>
             <section class="page3-section1">
-                <h2 class="page3-h2"><span>My Programing Skills</span></h2>
+                <h2 class="page3-h2"><span>Programing Skills</span></h2>
                 <p class="page3-section1-p">Below are all the things I learned in programming.</p>
 
                 <section class="page3-section2">
@@ -622,7 +633,7 @@
         </section>
 <!-- page 8-->
         <section class="page8">
-            <h1 class="page8-h1"><strong><dfn  id="Service"><span>MY</span> SERVICE</dfn></strong></h1>
+            <h1 class="page8-h1"><strong><dfn  id="Service"><span>MY</span> SERVICES</dfn></strong></h1>
             <section class="page8-section">
             <div class="page8-div">
                 <h2>Web Design</h2>
@@ -644,7 +655,7 @@
         </section>
 <!-- page 4 -->
         <section class="page4">
-            <h1><dfn id="Work"><strong>MY <span>PROJECT</span></strong></dfn></h1>
+            <h1><dfn id="Work"><strong>MY <span>PROJECTS</span></strong></dfn></h1>
             <p class="page4-p">
                 Each project demonstrates my ability to conceptualize,design and develop innovative solutions that meet specific
                 needs.
@@ -667,7 +678,7 @@
         </section>
 <!-- page 5 -->
         <section class="assigment" id="assigment">
-            <h1><strong>ASSIGNMENT</strong></h1>
+            <h1><strong>ASSIGNMENTS</strong></h1>
             <figure>
                 <img class="photo" src="assets/screenShot/Screenshot%20(108).png" alt="assigment">
                 <figcaption>Assignment</figcaption>
@@ -675,7 +686,7 @@
         </section>
 <!-- page 6 -->
         <section class="page6">
-            <h1><dfn id="Certificate"><strong>CERTIFICATE</strong></dfn></h1>
+            <h1><dfn id="Certificate"><strong>CERTIFICATES</strong></dfn></h1>
             <img class="photo" src="assets/a5084119-1af2-42b4-951f-1eec199a0e2d.jpg">
         </section>
   </main>
@@ -686,7 +697,7 @@
                 <form>
                     <input type="text" placeholder="Your Name" required><br><br>
                     <input type="text" placeholder="Your Email" required><br><br>
-                    <textarea cols="30" rows="10" placeholder="Enter Your Massage"></textarea><br><br>
+                    <textarea cols="30" rows="10" placeholder="Enter Your Message"></textarea><br><br>
                     <button class="button" type="submit">Submit</button>
                  </form>
             </section>
@@ -724,7 +735,7 @@
             </nav>
         </section>
         <section>
-        <p class="footer-p">Copyright<small>&COPY</small>2023 - Designed by Savindi Rashmika</p>
+        <p class="footer-p"><span>Copyright<small>&COPY</small>2023</span> - Designed by Savindi Rashmika</p>
         </section>
     </footer>
 
