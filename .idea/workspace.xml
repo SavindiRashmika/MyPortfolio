@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Transition/Case_4/assets" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web Development/position/Cascade-Style-Sheets/CSS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -47,19 +49,6 @@
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,7 +83,10 @@
       <workItem from="1694872220705" duration="15185000" />
       <workItem from="1694925715090" duration="25587000" />
       <workItem from="1694978617402" duration="2667000" />
-      <workItem from="1695023973647" duration="25349000" />
+      <workItem from="1695023973647" duration="26115000" />
+      <workItem from="1695103440232" duration="2301000" />
+      <workItem from="1695109314476" duration="86000" />
+      <workItem from="1695131242840" duration="5850000" />
     </task>
     <servers />
   </component>
