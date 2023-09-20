@@ -275,7 +275,7 @@ figure>h4{
 .page3-h1{
     margin-left: 440px;
     margin-bottom: 3px;
-    width: 200px;
+    width: 220px;
 }
 .page3-div1{
     position: relative;
@@ -294,11 +294,15 @@ figure>h4{
     width: 90px;
     top: 15px;
 }
+.page3-div3{
+    color: white;
+    margin-top: 30px;
+}
 .page3-div2{
     width: 90px;
     height: 90px;
     border-radius: 10%;
-    border: 1px double #f5f5f5;
+    border: 3px solid #f5f5f5;
     text-align: center;
     padding-top: 10px;
 }
@@ -519,4 +523,161 @@ body > section {
     background: #000000;
     top: 0;
     z-index: 1;
+}
+/*size 1024*/
+@media all {
+    .home {
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .page1 {
+        background: url(assets/backgrund.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        padding: 120px 50px 120px 50px;
+    }
+
+    .hgroup {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        font-size: 35px;
+    }
+
+    .hello-div {
+        width: 100px;
+        height: 35px;
+        background-color: rgba(240, 80, 3, 1);
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+
+    .nav2 {
+        display: flex;
+        position: absolute;
+        bottom: 16%;
+        left: 40%;
+    }
+
+    /*page2*/
+    #img2 {
+        height: 320px;
+        width: 280px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .page2-div {
+        width: 350px;
+        height: 373px;
+        background: linear-gradient(to bottom, rgba(240, 80, 3, 1), rgba(2, 3, 0, 1));
+        position: absolute;
+        right: 100px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    article > p {
+        margin: 120px 0px 100px 117px;
+        font-size: 21px;
+        line-height: 38px;
+        color: #ffffff;
+    }
+
+
+    /*page3*/
+    .page3-h1 {
+        margin-left: 390px;
+        margin-bottom: 3px;
+        width: 220px
+    }
+
+    .page3-h2 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .page3-div1 {
+        position: relative;
+        width: 86px;
+        height: 86px;
+        border-radius: 100%;
+        border: 2px dashed rgba(240, 80, 3, 1);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        left: 20%;
+    }
+
+    .page3-img1 {
+        position: absolute;
+        text-align: center;
+        width: 75px;
+        top: 20px;
+        left: 5px;
+    }
+
+    .page3 {
+        background-color: #000000;
+        height: 195vh;
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+        padding-right: 50px;
+    }
+
+    .page3-section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 38px;
+    }
+
+    section1-p {
+        color: #ffffff;
+        margin-top: 15px;
+        font-size: 22px;
+    }
+
+    .page3-section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 35px;
+        flex-wrap: wrap;
+        position: relative;
+        left: 12%;
+        height: 318px;
+        width: 629px;
+    }
+
+    /*page 8*/
+    .page8-div {
+        width: 300px;
+        height: 230px;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-items: baseline;
+        margin: 30px;
+        border-radius: 20px;
+    }
+
+    .page8-h1 {
+        color: #ffffff;
+        position: relative;
+        left: 35%;
+        margin: 50px 50px 45px 50px;
+    }
 }
