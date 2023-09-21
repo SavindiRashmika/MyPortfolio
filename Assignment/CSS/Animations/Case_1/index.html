@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Case_1</title>
+  <style>
+  .div2{
+    width: 200px;
+    height: 50px;
+    background-color: #ff253a;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px;
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+      animation-direction: alternate;
+  }
+  @keyframes anima {
+    0%{
+      background-color: purple;
+      top: 0;
+      left: 0;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: grey;
+        top: 0;
+        left: 1100px;
+        transform: rotate(120deg);
+    }
+    50%{
+        background-color: blue;
+        transform: rotate(240deg);
+        left: 1100px;
+        top: 450px;
+    }
+      75%{
+          background-color: orangered;
+          top: 450px;
+          left: 0;
+      }
+    100%{
+        background-color: green;
+        transform: rotate(360deg);
+        top: 0;
+        left: 0;
+    }
+  }
+
+  </style>
+</head>
+<body>
+<div class="div1">
+  <div class="div2"></div>
+</div>
+</body>
+</html>
