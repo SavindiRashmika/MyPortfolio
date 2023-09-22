@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Case_3</title>
+    <style>
+
+        main{
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            margin: auto;
+            border: 3px solid black;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+
+        main>section{
+            width: 400%;
+            height:  100%;
+            display: flex;
+            animation-name: slider;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+
+        main>section>div{
+            width: 500px;
+            height: 500px;
+
+        }
+        div>img{
+            width: 500px;
+            height: 500px;
+        }
+        @keyframes slider{
+            0%{
+                transform: translateX(0);
+            }
+
+            40%{
+                transform: translateX(-25%);
+            }
+
+            80%{
+                transform: translateX(-50%);
+            }
+
+           100%{
+                transform: translateX(-75%);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div>
+            <img src="assets/image/download%20(1).jpg">
+        </div>
+        <div>
+            <img src="assets/image/download%20(2).jpg">
+        </div>
+        <div>
+            <img src="assets/image/images%20(1).jpg">
+        </div>
+        <div>
+            <img src="assets/image/images%20(3).jpg">
+        </div>
+    </section>
+</main>
+</body>
+</html>
