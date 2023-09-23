@@ -226,7 +226,7 @@ h3{
 .containar{
     width: 800px;
     height: 500px;
-    border: 2px solid black;
+    /*border: 5px solid orangered;*/
     position: absolute;
     left: 0;
     right: 0;
@@ -234,6 +234,7 @@ h3{
     bottom: 0;
     margin: auto;
     overflow: hidden;
+
 }
 .certificate {
     width: calc(100% * 7);
@@ -937,6 +938,64 @@ body > section {
         bottom: 20px;
     }
 }
-@media all and (max-width: 320px ) {
+/*size768*/
+@media all and (max-width: 768px ) {
+    header>nav>ul>li>a {
+        font-size: 14px;
+        font-family: 'Ubuntu',sans-serif;
+        font-weight: 500;
+        margin: 10px;
+        color: #ffffff;
+    }
+    .hgroup {
+        position: absolute;
+        top: 40%;
+        left: 44%;
+        font-size: 25px;
+    }
+    .media {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        left: 7px;
+        top: 7px;
+        border: 3px solid #808080;
+        border-radius: 100%;
+    }
+    .div1 {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #000000;
+        position: relative;
+        left: 3px;
+        top: 10px;
+    }
+    .nav2 {
+        display: flex;
+        position: absolute;
+        bottom: 22%;
+        left: 44%;
+    }
+    hgroup>p {
+        color: #ffffff;
+        font-size: 20px;
+        margin: 9px;
+    }
+    .home {
+        border-radius: 100%;
+        position: absolute;
+        width: 260px;
+        height: 260px;
+        top: 30%;
+        left: 6%;
+    }
 
+    /*page 2*/
+    .about {
+        position: absolute;
+        top: 5px;
+        margin-left: 60px;
+        margin-right: 110px;
+    }
 }
