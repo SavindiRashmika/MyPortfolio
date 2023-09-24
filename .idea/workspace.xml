@@ -49,6 +49,19 @@
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,7 +105,8 @@
       <workItem from="1695293284714" duration="591000" />
       <workItem from="1695309437696" duration="1261000" />
       <workItem from="1695356129645" duration="13943000" />
-      <workItem from="1695444321499" duration="11923000" />
+      <workItem from="1695444321499" duration="12204000" />
+      <workItem from="1695527087814" duration="10140000" />
     </task>
     <servers />
   </component>
