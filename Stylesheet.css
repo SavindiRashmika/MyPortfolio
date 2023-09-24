@@ -301,6 +301,67 @@ h3{
 }
 figcaption{
     color: #eeeeee;
+    width: 200px;
+    height: 50px;
+}
+.assi-main{
+    height: 200vh;
+    background-color: black;
+    position: relative;
+
+}
+.assi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    height: 150vh;
+    position: relative;
+    left: 80px;
+    gap: 20px;
+    padding: 20px;
+}
+.assi div{
+    height: 250px;
+    /*background-color: orangered;*/
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.assi div{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid orangered;
+}
+.assi div:hover{
+    background: linear-gradient(to bottom, rgba(240, 80, 3, 1), rgba(2, 3, 0, 1));
+}
+.a {
+    width: 180px;
+    height: 57px;
+    border-radius: 15px;
+    background-color: black;
+    border: 2px solid orangered;
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 90px 50px 50px 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.assigment-a {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    border: 2px solid orangered;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: white;
+    text-align: center;
+    padding: 11px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 figure>img:hover{
     transform: scale(1.1);
@@ -1586,5 +1647,14 @@ body > section {
         position: absolute;
         bottom: -34%;
         left: 16%;
+    }
+    .hello-div {
+        width: 90px;
+        height: 32px;
+        background-color: rgba(240, 80, 3, 1);
+        text-align: center;
+        border-radius: 10px;
+        margin: 0px 10px 20px 10px;
+        /* padding-top: 1px; */
     }
 }
