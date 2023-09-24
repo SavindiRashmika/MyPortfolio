@@ -230,28 +230,26 @@ h3{
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 70px;
     bottom: 0;
     margin: auto;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
-
 }
 .certificate {
     width: calc(100% * 7);
-    height: 100%;
-    /*border: 2px solid red;*/
+    height:  100%;
     display: flex;
-
-    animation-name: slide_me;
-    animation-duration: 10s;
+    animation-name: slider;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    gap: 20px;
 }
 .slide{
-    flex-grow: 1;
-    height: 100%;
-    border-radius: 5px;
-    gap: 10px;
+    width: 750px;
+    height: 450px;
 }
 .slide img{
     width: 750px;
@@ -284,9 +282,6 @@ h3{
 
     90%{
         transform: translateX(calc((-100%/7)*6));
-    }
-    100%{
-        transform: translateX(calc((-100%/7)*7));
     }
 
 }
@@ -955,6 +950,10 @@ body > section {
         border-radius: 5px;
         position: relative;
     }
+    .slide {
+        width: 590px;
+        height: 450px;
+    }
     /*page8*/
     .page8-div {
         width: 202px;
@@ -1360,6 +1359,18 @@ body > section {
         font-size: 18px;
         margin-left: 28px;
     }
+    .page4-h4 {
+        position: relative;
+        left: 40%;
+        width: 100px;
+        height: 30px;
+        bottom: 58px;
+        /* margin: -7px; */
+        color: #ff4500;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid #ff4500;
+    }
     .page4-figure {
         width: 255px;
         display: flex;
@@ -1379,7 +1390,7 @@ body > section {
     }
     .page4 {
         background-color: #000000;
-        height: 333vh;
+        height: 368vh;
         color: #ffffff;
         display: flex;
         flex-direction: column;
@@ -1387,10 +1398,25 @@ body > section {
     }
     /*page5*/
     .photo {
-        width: 300px;
+        width: 260px;
         height: 298px;
         position: relative;
-        /* left: -33%; */
+        left: 21%;
+    }
+    .assigment-a {
+        width: 150px;
+        height: 50px;
+        border-radius: 15px;
+        background-color: black;
+        border: 2px solid orangered;
+        position: absolute;
+        top: 50%;
+        left: 37%;
+        color: white;
+        text-align: center;
+        padding: 11px;
+        font-family: 'Poppins';
+        font-weight: 500;
     }
     .page5-figure {
         width: 0px;
