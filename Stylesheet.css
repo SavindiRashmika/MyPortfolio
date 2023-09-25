@@ -8,6 +8,15 @@
     text-decoration: none;
     list-style: none;
 }
+.checkbtn{
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+#check{
+    display: none;
+}
 span{
     color: rgba(240, 80, 3, 1);
 }
@@ -1370,6 +1379,48 @@ body > section {
     }
 }
 @media all and (min-width: 375px) and (max-width: 425px){
+    nav>h2 {
+        color: #ffffff;
+        position: absolute;
+    }
+    #nav-i{
+        font-size: 25px;
+    }
+    .nav1{
+        height: 10vh;
+        color: white;
+        padding: 0px 20px;
+    }
+    .checkbtn {
+        display: block;
+        position: relative;
+        left: 330px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+        height: 100vh;
+        background-color: #000000;
+        position: fixed;
+        top: 48px;
+        left: 100%;
+        text-align: center;
+        /* right: 80px; */
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0px;
+        line-height: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 19px 0px;
+        line-height: 20px;
+    }
     .assi-main {
         height: 436vh;
         background-color: black;
@@ -1775,6 +1826,48 @@ body > section {
     }
 }
 @media all and (min-width: 325px) and (max-width: 375px){
+    nav>h2 {
+        color: #ffffff;
+        position: absolute;
+    }
+    #nav-i{
+        font-size: 25px;
+    }
+    .nav1{
+        height: 10vh;
+        color: white;
+        padding: 0px 20px;
+    }
+    .checkbtn {
+        display: block;
+        position: relative;
+        left: 280px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+        height: 100vh;
+        background-color: #000000;
+        position: fixed;
+        top: 48px;
+        left: 100%;
+        text-align: center;
+        /* right: 80px; */
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0px;
+        line-height: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 19px 0px;
+        line-height: 20px;
+    }
     .assi-main {
         height: 436vh;
         background-color: black;
@@ -2430,5 +2523,57 @@ body > section {
         display: flex;
         flex-direction: column;
         padding-left: 36px;
+    }
+    nav>h2 {
+        color: #ffffff;
+        position: absolute;
+    }
+    #nav-i{
+        font-size: 25px;
+    }
+    .nav1{
+        height: 10vh;
+        color: white;
+        padding: 0px 20px;
+    }
+    .checkbtn {
+        display: block;
+        position: relative;
+        left: 228px;
+    }
+    ul{
+        /*display: none;*/
+        width: 90vw;
+        height: 100vh;
+        background-color:rgba(0, 0, 0, 0.5) ;
+        position: fixed;
+        top: 75px;
+        left: 90%;
+        text-align: center;
+    }
+nav ul li{
+    display: block;
+    margin: 50px 0px;
+    line-height: 20px;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+    nav ul li {
+        display: block;
+        margin: 19px 0px;
+        line-height: 20px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        height: 100vh;
+        background-color: #000000;
+        position: fixed;
+        top: 48px;
+        left: 100%;
+        text-align: center;
+        /* right: 80px; */
     }
 }
