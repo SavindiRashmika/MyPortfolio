@@ -182,6 +182,9 @@ footer{
     bottom: 33%;
     margin: 10px;
 }
+.footer-a{
+    color: #ffffff;
+}
 .footer-ul:hover{
     color: #ffffff;
     text-decoration: underline;
@@ -1022,6 +1025,8 @@ body > section {
         left: 31%;
         bottom: 33%;
         margin: 10px;
+        display: flex;
+        gap: 13px;
     }
     .footer-p {
         color: #ffffff;
@@ -1378,7 +1383,7 @@ body > section {
         padding: 20px;
     }
 }
-@media all and (min-width: 375px) and (max-width: 425px){
+@media all and (min-width: 375px) and (max-width: 425px) {
     nav>h2 {
         color: #ffffff;
         position: absolute;
@@ -1396,18 +1401,6 @@ body > section {
         position: relative;
         left: 330px;
     }
-    ul {
-        display: flex;
-        flex-direction: column;
-        width: 84%;
-        height: 100vh;
-        background-color: #000000;
-        position: fixed;
-        top: 48px;
-        left: 100%;
-        text-align: center;
-        /* right: 80px; */
-    }
     nav ul li{
         display: block;
         margin: 50px 0px;
@@ -1421,11 +1414,25 @@ body > section {
         margin: 19px 0px;
         line-height: 20px;
     }
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+        height: 100vh;
+        background-color: #000000;
+        position: fixed;
+        top: 48px;
+        left: 100%;
+        text-align: center;
+        /* right: 80px; */
+    }
+
     .assi-main {
         height: 436vh;
         background-color: black;
         position: relative;
     }
+
     .assi {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1437,13 +1444,15 @@ body > section {
         gap: 20px;
         padding: 20px;
     }
+
     .assi div {
         height: 236px;
         width: 161px;
         /* background-color: orangered; */
-         border: 1px solid orangered;
+        border: 1px solid orangered;
         border-radius: 10px;
     }
+
     .a {
         width: 133px;
         height: 50px;
@@ -1458,6 +1467,7 @@ body > section {
         font-family: 'Poppins';
         font-weight: 500;
     }
+
     /*page 8*/
     .page8 {
         position: relative;
@@ -1466,7 +1476,8 @@ body > section {
         padding-left: 50px;
         padding-right: 50px;
     }
-    section>h1 {
+
+    section > h1 {
         display: inline-block;
         font-family: "Book Antiqua";
         font-size: 29px;
@@ -1474,12 +1485,14 @@ body > section {
         color: #ffffff;
         margin: 50px 50px 36px 50px;
     }
+
     .page8-h1 {
         color: #ffffff;
         position: relative;
         left: 0%;
         margin: 50px;
     }
+
     .page8-section {
         border: 1px solid rgba(240, 80, 3, 1);
         height: 130vh;
@@ -1499,6 +1512,7 @@ body > section {
         font-size: 18px;
         margin-left: 28px;
     }
+
     .page4-h4 {
         position: relative;
         left: 40%;
@@ -1511,6 +1525,7 @@ body > section {
         border-radius: 10px;
         border: 1px solid #ff4500;
     }
+
     .page4-figure {
         width: 255px;
         display: flex;
@@ -1519,7 +1534,8 @@ body > section {
         flex-wrap: wrap;
         margin-left: 50px;
     }
-    figure>img {
+
+    figure > img {
         width: 265px;
         height: 168px;
         border: 2px solid #ff3d0036;
@@ -1528,6 +1544,7 @@ body > section {
         cursor: pointer;
         margin: 10px;
     }
+
     .page4 {
         background-color: #000000;
         height: 368vh;
@@ -1536,6 +1553,7 @@ body > section {
         flex-direction: column;
         padding-left: 40px;
     }
+
     /*page5*/
     .photo {
         width: 260px;
@@ -1543,6 +1561,7 @@ body > section {
         position: relative;
         left: 21%;
     }
+
     .assigment-a {
         width: 150px;
         height: 50px;
@@ -1558,6 +1577,7 @@ body > section {
         font-family: 'Poppins';
         font-weight: 500;
     }
+
     .page5-figure {
         width: 0px;
         margin-left: 11%;
@@ -1578,22 +1598,26 @@ body > section {
         margin: auto;
         overflow: hidden;
     }
+
     .slide img {
         width: 350px;
         height: 262px;
         border-radius: 5px;
     }
+
     /*page7*/
     .page7-h1 {
         position: relative;
         left: 10%;
     }
+
     form {
         display: inline-block;
         position: relative;
         left: 5%;
         margin: 0;
     }
+
     form input, form textarea {
         width: 306px;
         padding: 9px;
@@ -1605,6 +1629,7 @@ body > section {
         margin-bottom: -7px;
         border-radius: 10px;
     }
+
     .button {
         width: 90px;
         height: 22px;
@@ -1612,24 +1637,25 @@ body > section {
         border: 2px solid #ff4500;
         border-radius: 20px;
         color: #000000;
-        font-family: "Ubuntu",sans-serif;
+        font-family: "Ubuntu", sans-serif;
         font-weight: 700;
     }
-    /*footer*/
 
+    /*footer*/
     footer {
         height: 24vh;
         background-color: #000000;
         color: #ffffff;
         position: relative;
     }
-    .footer-ul {
-        color: #ffffff;
-        position: absolute;
-        left: 6%;
-        bottom: 33%;
-        margin: 10px;
-    }
+
+    /*footer section:nth-child(2) nav .footer-ul {*/
+    /*    color: #ffffff;*/
+    /*    position: absolute;*/
+    /*    left: 6%;*/
+    /*    bottom: 33%;*/
+    /*    margin: 10px;*/
+    /*}*/
     .footer-ul {
         color: #ffffff;
         font-size: 11px;
@@ -1639,7 +1665,10 @@ body > section {
         left: 13%;
         bottom: 33%;
         margin: 10px;
+        display: flex;
+        gap: 13px;
     }
+
     .footer-p {
         color: #ffffff;
         font-size: 12px;
@@ -1648,36 +1677,41 @@ body > section {
         left: 24%;
         bottom: 22px;
     }
+
     /*page 3*/
     .page3 {
         background-color: #000000;
-        height: 336vh;
+        height: 350vh;
         display: flex;
         flex-direction: column;
         padding-left: 50px;
         padding-right: 50px;
     }
+
     .page3-h1 {
         margin-left: 50px;
         margin-bottom: 3px;
         width: 220px;
     }
+
     .page3-h2 {
         font-size: 22px;
         margin-top: 30px;
         margin-bottom: 25px;
     }
+
     .page3-div1 {
         position: relative;
         width: 70px;
         height: 70px;
         border-radius: 100%;
         border: 2px dashed rgba(240, 80, 3, 1);
-        margin: 20px;
+        margin: 40px 0px 85px 0px;
         display: flex;
         flex-direction: column;
         left: 12%;
     }
+
     .page3-img1 {
         position: absolute;
         text-align: center;
@@ -1685,18 +1719,20 @@ body > section {
         top: 17px;
         left: 3px;
     }
+
     .page3-section1-p1 {
         color: #ffffff;
         position: relative;
         left: -144%;
         /* right: 184%; */
-        top: 72px;
+        top: 86px;
         width: 300px;
         font-size: 16px;
         letter-spacing: 0.3px;
         word-spacing: 6px;
         margin: 5px;
     }
+
     .page3-div1 {
         position: relative;
         width: 70px;
@@ -1710,11 +1746,13 @@ body > section {
         left: 42%;
         top: 0px;
     }
+
     .page3-section1-p {
         color: #ffffff;
         margin: 12px 0px 29px 0px;
         font-size: 16px;
     }
+
     .page3-section2 {
         display: flex;
         flex-direction: row;
@@ -1727,6 +1765,7 @@ body > section {
         /* height: 377px; */
         width: 333px;
     }
+
     .page3-div2 {
         width: 100px;
         height: 100px;
@@ -1747,6 +1786,7 @@ body > section {
         position: relative;
         padding: 1px 50px 0px 50px;
     }
+
     article > p {
         margin: 135px 64px 33px 36px;
         width: 362px;
@@ -1754,6 +1794,7 @@ body > section {
         line-height: 34px;
         color: #ffffff;
     }
+
     .downloadCV {
         width: 125px;
         height: 36px;
@@ -1764,11 +1805,12 @@ body > section {
         position: absolute;
         bottom: 6%;
         left: 12%;
-        font-family: 'Poppins',sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
         color: #000000;
         padding-top: 5px;
     }
+
     .page2-div {
         width: 254px;
         height: 325px;
@@ -1779,6 +1821,7 @@ body > section {
         /* bottom: 35px; */
         margin: auto;
     }
+
     .about {
         position: absolute;
         top: 10px;
@@ -1786,6 +1829,7 @@ body > section {
         margin-left: 33px;
         margin-right: 50px;
     }
+
     /*page1*/
     .home {
         border-radius: 100%;
@@ -1795,6 +1839,7 @@ body > section {
         top: 25%;
         left: 18%;
     }
+
     .page1 {
         background: url(assets/backgrund.png);
         background-size: cover;
@@ -1803,18 +1848,21 @@ body > section {
         height: 140vh;
         padding: 48px;
     }
+
     .hgroup {
         position: absolute;
         top: 89%;
         left: 14%;
         font-size: 25px;
     }
+
     .nav2 {
         display: flex;
         position: absolute;
         bottom: -34%;
         left: 16%;
     }
+
     .hello-div {
         width: 90px;
         height: 32px;
@@ -1843,18 +1891,6 @@ body > section {
         position: relative;
         left: 280px;
     }
-    ul {
-        display: flex;
-        flex-direction: column;
-        width: 84%;
-        height: 100vh;
-        background-color: #000000;
-        position: fixed;
-        top: 48px;
-        left: 100%;
-        text-align: center;
-        /* right: 80px; */
-    }
     nav ul li{
         display: block;
         margin: 50px 0px;
@@ -1867,6 +1903,18 @@ body > section {
         display: block;
         margin: 19px 0px;
         line-height: 20px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+        height: 100vh;
+        background-color: #000000;
+        position: fixed;
+        top: 48px;
+        left: 100%;
+        text-align: center;
+        /* right: 80px; */
     }
     .assi-main {
         height: 436vh;
@@ -2464,6 +2512,8 @@ body > section {
         bottom: 19%;
         margin: 10px;
         font-size: 10px;
+        display: flex;
+        gap: 13px;
     }
     .footer-ul {
         color: #ffffff;
