@@ -871,8 +871,9 @@ body > section {
 /*page2*/
     .about {
         position: absolute;
-        top: 50px;
+        top: 4px;
         margin-left: 12px;
+        left: 108px;
     }
     .downloadCV {
         width: 180px;
@@ -1288,7 +1289,7 @@ body > section {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin: 0px 50px 50px 75px;
+        margin: 0px 37px 50px 58px;
     }
     .page8-div {
         width: 196px;
@@ -1361,7 +1362,7 @@ body > section {
         position: absolute;
         left: 51px;
         right: 0;
-        top: 0;
+        top: 185px;
         bottom: 0;
         margin: auto;
         overflow: hidden;
