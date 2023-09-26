@@ -667,9 +667,120 @@ body > section {
     top: 0;
     z-index: 1;
 }
-
-
-
+/*size 1440*/
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    .home {
+        border-radius: 100%;
+        position: relative;
+        left: 25px;
+    }
+    .page1 {
+        background: url(assets/backgrund.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 110vh;
+        padding: 120px;
+    }
+    .downloadCV{
+        bottom: 16%;
+        left: 15%;
+    }
+    .page2-div {
+        position: absolute;
+        right: 218px;
+        top: 0;
+        bottom: 8px;
+        margin: auto;
+    }
+    .about {
+        position: absolute;
+        top: 50px;
+        margin-left: -110px;
+    }
+    .page3 {
+        height: 218vh;
+    }
+    .page3-div1 {
+        position: relative;
+        margin: 20px;
+        left: 16%;
+    }
+    .page3-section1-p {
+        margin: 12px 0px 60px 0px;
+    }
+    .page8{
+        height: 110vh;
+    }
+    .page8-section {
+        height: 64vh;
+        width: 1000px;
+        position: relative;
+        left: 3%;
+    }
+    .page3-section2 {
+        position: relative;
+        left: 6%;
+    }
+    .page4-h4 {
+        position: relative;
+        left: 45%;
+        bottom: 6%;
+    }
+    .page4 {
+        height: 148vh;
+    }
+    .page4-figure {
+        position: relative;
+        left: 3%;
+        margin-bottom: 50px;
+    }
+    .assigment {
+        height: 116vh;
+    }
+    .photo {
+        position: relative;
+        left: 32%;
+    }
+    .page6 {
+        height: 128vh;
+    }
+    .containar {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    .page7 {
+        height: 120vh;
+    }
+    footer {
+        height: 28vh;
+    }
+    .footer-ul {
+        position: absolute;
+        left: 38%;
+    }
+    .footer-p {
+        color: #ffffff;
+        text-align: center;
+        position: absolute;
+        left: 40%;
+        bottom: 20px;
+    }
+    .assi-main {
+        height: 215vh;
+        background-color: black;
+        position: relative;
+    }
+    .assi {
+        height: 200vh;
+        position: relative;
+        left: 105px;
+        gap: 20px;
+        padding: 20px;
+    }
+}
 
 /*size 1024*/
 @media all and (min-width: 768px) and (max-width: 1024px){
@@ -760,9 +871,8 @@ body > section {
 /*page2*/
     .about {
         position: absolute;
-        top: 5px;
-        /* margin-left: -89px; */
-        margin-right: 110px;
+        top: 50px;
+        margin-left: 12px;
     }
     .downloadCV {
         width: 180px;
@@ -825,6 +935,9 @@ body > section {
         flex-direction: column;
         margin-left: 55px;
     }
+    .page3-section1-p {
+        margin: 12px 0px 40px 0px;
+    }
     .page3-div1 {
         position: relative;
         width: 86px;
@@ -847,7 +960,7 @@ body > section {
 
     .page3 {
         background-color: #000000;
-        height: 225vh;
+        height: 245vh;
         display: flex;
         flex-direction: column;
         padding-left: 90px;
@@ -858,7 +971,11 @@ body > section {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 38px;
+        margin-top: 35px;
+        flex-wrap: wrap;
+        position: relative;
+        margin-left: 30px;
+        left: 1%;
     }
 
     section1-p {
@@ -978,7 +1095,7 @@ body > section {
     }
     /*page6*/
     .slide img {
-        top: 20%;
+        top: 2%;
         width: 533px;
         height: 330px;
         border-radius: 5px;
@@ -1024,7 +1141,7 @@ body > section {
     .footer-ul {
         color: #ffffff;
         position: absolute;
-        left: 31%;
+        left: 33%;
         bottom: 33%;
         margin: 10px;
         display: flex;
@@ -1090,7 +1207,12 @@ body > section {
         top: 30%;
         left: 6%;
     }
-
+    .photo {
+        width: 430px;
+        height: 288px;
+        position: relative;
+        left: 24%;
+    }
     /*page 2*/
     .about {
         position: absolute;
@@ -1159,14 +1281,14 @@ body > section {
     /*page 8*/
     .page8-section {
         border: 1px solid rgba(240, 80, 3, 1);
-        height: 85vh;
+        height: 87vh;
         border-radius: 10px;
-        width: 575px;
+        width: 595px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin: 0px 0px 50px 60px;
+        margin: 0px 50px 50px 75px;
     }
     .page8-div {
         width: 196px;
@@ -1307,14 +1429,7 @@ body > section {
     }
     .page3-div1 {
         position: relative;
-        width: 80px;
-        height: 80px;
-        border-radius: 100%;
-        border: 2px dashed rgba(240, 80, 3, 1);
-        margin: 20px;
-        display: flex;
-        flex-direction: column;
-        left: 12%;
+        left: 8%;
     }
     .page3-img1 {
         position: absolute;
@@ -1334,30 +1449,20 @@ body > section {
         margin: 5px;
     }
     .page3-section2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 22px;
-        flex-wrap: wrap;
-        position: relative;
-        margin-left: 6px;
-        /* left: -10%; */
-        /* height: 377px; */
-        width: 634px;
+        margin-top: 6px;
+        margin-left: 30px;
+        left: 0%;
+        width: 632px;
     }
     .page3 {
-        background-color: #000000;
-        height: 245vh;
-        display: flex;
-        flex-direction: column;
-        padding-left: 90px;
-        padding-right: 50px;
+        height: 250vh;
+        padding: 0px 90px 0px 50px;
     }
     /*footer*/
     .footer-ul {
         color: #ffffff;
         position: absolute;
-        left: 25%;
+        left: 28%;
         bottom: 33%;
         margin: 10px;
     }
@@ -1365,7 +1470,7 @@ body > section {
         color: #ffffff;
         text-align: center;
         position: absolute;
-        left: 34%;
+        left: 32%;
         bottom: 20px;
     }
     .assi-main {
@@ -1548,12 +1653,7 @@ body > section {
     }
 
     .page4 {
-        background-color: #000000;
-        height: 368vh;
-        color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        padding-left: 40px;
+        height: 362vh;
     }
 
     /*page5*/
@@ -1589,18 +1689,24 @@ body > section {
 
     /*page6*/
     .containar {
-        width: 358px;
+        width: 332px;
         height: 285px;
         /* border: 5px solid orangered; */
         position: absolute;
         left: 10px;
         right: 0;
-        top: 0;
+        top: 75px;
         bottom: 0;
         margin: auto;
         overflow: hidden;
     }
-
+    .page6 {
+        height: 90vh;
+        background-color: #000000;
+        padding-left: 40px;
+        text-align: center;
+        position: relative;
+    }
     .slide img {
         width: 350px;
         height: 262px;
@@ -1650,25 +1756,12 @@ body > section {
         color: #ffffff;
         position: relative;
     }
-
-    /*footer section:nth-child(2) nav .footer-ul {*/
-    /*    color: #ffffff;*/
-    /*    position: absolute;*/
-    /*    left: 6%;*/
-    /*    bottom: 33%;*/
-    /*    margin: 10px;*/
-    /*}*/
     .footer-ul {
-        color: #ffffff;
-        font-size: 11px;
-        /* width: 211px; */
-        /* padding: 6px; */
         position: absolute;
-        left: 13%;
-        bottom: 33%;
+        left: 10%;
+        font-size: 15px;
+        bottom: 31%;
         margin: 10px;
-        display: flex;
-        gap: 13px;
     }
 
     .footer-p {
@@ -1708,10 +1801,12 @@ body > section {
         height: 70px;
         border-radius: 100%;
         border: 2px dashed rgba(240, 80, 3, 1);
-        margin: 40px 0px 85px 0px;
+        margin: 40px 0px 80px 0px;
         display: flex;
         flex-direction: column;
-        left: 12%;
+        /* gap: 100px; */
+        left: 42%;
+        top: 0px;
     }
 
     .page3-img1 {
@@ -1725,9 +1820,9 @@ body > section {
     .page3-section1-p1 {
         color: #ffffff;
         position: relative;
-        left: -144%;
+        left: -150%;
         /* right: 184%; */
-        top: 86px;
+        top: 91px;
         width: 300px;
         font-size: 16px;
         letter-spacing: 0.3px;
@@ -1741,7 +1836,7 @@ body > section {
         height: 70px;
         border-radius: 100%;
         border: 2px dashed rgba(240, 80, 3, 1);
-        margin: 40px 0px 50px 0px;
+        margin: 7px 0px 110px 0px;
         display: flex;
         flex-direction: column;
         /* gap: 100px; */
@@ -2092,19 +2187,23 @@ body > section {
     .page3-section1 {
         display: flex;
         flex-direction: column;
-        margin-left: 8px;
+        margin-left: 16px;
     }
     .page3-section1-p1 {
         color: #ffffff;
         position: relative;
         left: -126%;
         /* right: 184%; */
-        top: 72px;
+        top: 85px;
         width: 244px;
         font-size: 16px;
         letter-spacing: 0.3px;
         word-spacing: 6px;
         margin: 5px;
+    }
+    .page3-div1 {
+        position: relative;
+        margin: 10px 0px 118px 0px;
     }
 
     /*page2*/
@@ -2143,14 +2242,10 @@ body > section {
 
     /*footer*/
     .footer-ul {
-        color: #ffffff;
-        font-size: 9px;
-        /* width: 211px; */
-        /* padding: 6px; */
         position: absolute;
-        left: 13%;
-        bottom: 33%;
-        margin: 10px;
+        left: 10%;
+        bottom: 29%;
+        font-size: 13px;
     }
     .footer-p {
         color: #ffffff;
