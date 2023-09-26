@@ -65,6 +65,8 @@ li a:hover{
     top: 40%;
     left: 45%;
     font-size: 38px;
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
 }
 hgroup>h1{
     color: #ffffff;
