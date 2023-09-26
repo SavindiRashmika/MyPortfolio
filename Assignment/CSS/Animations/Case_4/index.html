@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        section{
+            width: 1000px;
+            height: 500px;
+            position: absolute;
+            margin: auto;
+            border: 3px solid black;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+        .sky {
+            width: 100vw;
+            height: 400px;
+            z-index: 1;
+        }
+        .city {
+            height: 390px;
+            z-index: 2;
+            left: 1px;
+            position: absolute;
+            animation-name: road;
+            animation-duration: 8s;
+            background-repeat: repeat-x;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .road {
+            top: 389px;
+            height: 205px;
+            z-index: 4;
+            position: absolute;
+            background-repeat: repeat-x;
+            animation-name: road;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .car {
+            width: 300px;
+            height: 150px;
+            z-index: 5;
+            position: absolute;
+            left: 10px;
+            top: 8px;
+        }
+        .wheel {
+            z-index: 4;
+            position: absolute;
+            width: 53px;
+            top: 89px;
+            left: 36px;
+            height: 50px;
+            animation-name: rotate;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .wheel2 {
+            z-index: 4;
+            position: absolute;
+            width: 53px;
+            top: 89px;
+            left: 220px;
+            height: 55px;
+            animation-name: rotate;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .car-div {
+            z-index: 6;
+            width: 350px;
+            height: 175px;
+            position: absolute;
+            top: 278px;
+            left: 200px;
+            animation-name: car;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes car {
+           0%{
+               transform: translateX(0px);
+           }
+            100%{
+                transform: translateX(300px);
+            }
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes road {
+            from {
+                transform: translateX(0px);
+            }
+            to {
+                transform: translateX(-1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+<section>
+    <img class="city" src="Car_Animation_Img/city.png">
+    <img class="road" src="Car_Animation_Img/road.jpg">
+    <img class="sky" src="Car_Animation_Img/sky.jpg">
+    <div class="car-div">
+         <img class="car" src="Car_Animation_Img/car.png">
+         <img class="wheel" src="Car_Animation_Img/wheel.png">
+         <img class="wheel2" src="Car_Animation_Img/wheel.png">
+    </div>
+</section>
+</body>
+</html>

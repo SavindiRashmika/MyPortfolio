@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="" />
+    <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,17 +31,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/certificate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Animations/Case_4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Animations\Case_4" />
       <recent name="E:\Work Zone\MyPortfolio\assets\certificate" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Animations\Case_3" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_4\assets" />
-      <recent name="E:\Work Zone\MyPortfolio\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
@@ -93,6 +95,8 @@
       <workItem from="1695527087814" duration="23502000" />
       <workItem from="1695623884354" duration="35166000" />
       <workItem from="1695706526686" duration="17696000" />
+      <workItem from="1695726906624" duration="9589000" />
+      <workItem from="1695739556185" duration="328000" />
     </task>
     <servers />
   </component>
