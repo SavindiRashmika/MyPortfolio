@@ -334,16 +334,19 @@ figcaption{
 }
 .assi div{
     height: 250px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    /*background: linear-gradient(100deg, black, #454545);*/
     /*background-color: orangered;*/
-    border: 1px solid black;
+    border: 1px solid #272829;
     border-radius: 10px;
 }
 .assi div{
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid orangered;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    /*border: 1px solid orangered;*/
 }
 .assi div:hover{
-    background: linear-gradient(to bottom, rgba(240, 80, 3, 1), rgba(2, 3, 0, 1));
+    box-shadow: 0 3px 20px 0px #ff4500;
+    border: 10px double #ff4500;
 }
 .a {
     width: 180px;
@@ -358,6 +361,14 @@ figcaption{
     margin: 90px 50px 50px 40px;
     font-family: 'Poppins';
     font-weight: 500;
+    animation: animate__fadeInUp 3s ease-in 1s infinite normal; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+.a:hover{
+    box-shadow: 0 3px 20px 0px #ff4500;
+    background-color: #ff4500;
+    transform: scale(1.1);
+    color: #eeeeee;
 }
 .assigment-a {
     width: 150px;
@@ -541,13 +552,13 @@ strong{
 .page4-h4{
     position: relative;
     left: 45%;
-    width: 100px;
+    width: 200px;
     height: 30px;
     margin: 10px;
     color: #ff4500;
     text-align: center;
     border-radius: 10px;
-    border: 1px solid #ff4500;
+    /*border: 1px solid #ff4500;*/
 }
 .page4-h4:hover{
     box-shadow: 0 3px 20px 0px #ff4500;
@@ -1029,13 +1040,13 @@ body > section {
         position: relative;
         left: 45%;
         bottom: 6%;
-        width: 100px;
+        width: 200px;
         height: 30px;
         margin: 20px;
         color: #ff4500;
         text-align: center;
         border-radius: 10px;
-        border: 1px solid #ff4500;
+        /*border: 1px solid #ff4500;*/
     }
     /*page 5*/
 
@@ -1340,14 +1351,14 @@ body > section {
     .page4-h4 {
         position: relative;
         left: 40%;
-        width: 100px;
+        width: 200px;
         height: 30px;
         bottom: 20px;
         /* margin: -7px; */
         color: #ff4500;
         text-align: center;
         border-radius: 10px;
-        border: 1px solid #ff4500;
+        /*border: 1px solid #ff4500;*/
     }
     /*page 5*/
     .page5-figure {
@@ -1559,10 +1570,14 @@ body > section {
         height: 236px;
         width: 161px;
         /* background-color: orangered; */
-        border: 1px solid orangered;
+        border: 6px solid #454545;
         border-radius: 10px;
     }
+    .assi div:hover{
+        box-shadow: 0 3px 20px 0px #ff4500;
+        border: 10px double #ff4500;
 
+    }
     .a {
         width: 133px;
         height: 50px;
@@ -1626,14 +1641,14 @@ body > section {
     .page4-h4 {
         position: relative;
         left: 40%;
-        width: 100px;
+        width: 200px;
         height: 30px;
         bottom: 58px;
         /* margin: -7px; */
         color: #ff4500;
         text-align: center;
         border-radius: 10px;
-        border: 1px solid #ff4500;
+        /*border: 1px solid #ff4500;*/
     }
 
     .page4-figure {
@@ -2037,8 +2052,13 @@ body > section {
         width: 150px;
         /* background-color: orangered; */
         /* border: 1px solid black; */
-        border: 1px solid orangered;
+        border: 4px solid #454545;
         border-radius: 10px;
+    }
+    .assi div:hover{
+        box-shadow: 0 3px 20px 0px #ff4500;
+        border: 10px double #ff4500;
+
     }
     .a {
         width: 126px;
@@ -2144,14 +2164,14 @@ body > section {
     .page4-h4 {
         position: relative;
         left: 30%;
-        width: 100px;
+        width: 200px;
         height: 30px;
         bottom: 58px;
         /* margin: -7px; */
         color: #ff4500;
         text-align: center;
         border-radius: 10px;
-        border: 1px solid #ff4500;
+        /*border: 1px solid #ff4500;*/
     }
 
     /*page8*/
@@ -2281,8 +2301,13 @@ body > section {
         width: 130px;
         /* background-color: orangered; */
         /* border: 1px solid black; */
-        border: 1px solid orangered;
+        border: 4px solid #454545;
         border-radius: 10px;
+    }
+    .assi div:hover{
+        box-shadow: 0 3px 20px 0px #ff4500;
+        border: 10px double #ff4500;
+
     }
     .a {
         width: 111px;
@@ -2500,14 +2525,14 @@ body > section {
     .page4-h4 {
         position: relative;
         left: 30%;
-        width: 90px;
+        width: 120px;
         height: 22px;
         bottom: 20px;
         /* margin: -7px; */
         color: #ff4500;
         text-align: center;
         border-radius: 10px;
-        border: 1px solid #ff4500;
+        /*border: 1px solid #ff4500;*/
     }
     .photo {
         width: 240px;
@@ -2657,14 +2682,14 @@ body > section {
     .page4-h4 {
         position: relative;
         left: 30%;
-        width: 90px;
+        width: 130px;
         height: 22px;
         bottom: 60px;
         /* margin: -7px; */
         color: #ff4500;
         text-align: center;
         border-radius: 10px;
-        border: 1px solid #ff4500;
+        /*border: 1px solid #ff4500;*/
     }
     .page4 {
         background-color: #000000;
