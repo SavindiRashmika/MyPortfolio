@@ -369,7 +369,6 @@ figcaption{
 .a:hover{
     box-shadow: 0 3px 20px 0px #ff4500;
     background-color: #ff4500;
-    transform: scale(1.1);
     color: #eeeeee;
 }
 .assigment-a {
