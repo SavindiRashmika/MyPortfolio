@@ -44,23 +44,11 @@
       <recent name="E:\Work Zone\MyPortfolio\assets\certificate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\assets\media" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,7 +106,8 @@
       <workItem from="1695966427512" duration="10626000" />
       <workItem from="1696048570423" duration="27757000" />
       <workItem from="1696130884191" duration="1209000" />
-      <workItem from="1696307748409" duration="6676000" />
+      <workItem from="1696307748409" duration="16721000" />
+      <workItem from="1696344582552" duration="2346000" />
     </task>
     <servers />
   </component>
