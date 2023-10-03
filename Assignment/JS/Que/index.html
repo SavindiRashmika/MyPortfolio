@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case_1</title>
+    <meta name="viewport" content="width=device-width initial, scale=1.0">
+    <link rel="stylesheet" href="../../CSS/Case_1/assets/necolas.github.io_normalize.css_8.0.1_normalize.css">
+  <style>
+    section{
+      display: flex;
+      justify-content: center;
+    }
+    div{
+      width: 100px;
+      height: 50px;
+      border: 1px solid black;
+      display: inline-block;
+        position: relative;
+    }
+    #div1{
+      top: 100px;
+    }
+    #div2{
+      top: 150px;
+    }
+    #div3{
+      top: 150px;
+    }
+    #div4{
+      top: 150px;
+    }
+    #div5{
+      top: 200px;
+    }
+  </style>
+</head>
+
+<body>
+<section>
+      <div id="div1"></div>
+      <div id="div2"></div>
+      <div id="div3"></div>
+      <div id="div4"></div>
+      <div id="div5"></div>
+</section>
+
+<script>
+    var colors = new Array("pink","green","blue","red","purple");
+    let divs = document.querySelectorAll("section>div");
+
+    setInterval(prograss,300);
+
+    function prograss(){
+
+        for (let i = 0; i <colors.length; i++) {
+            divs[i].style.background=colors[i];
+        }
+
+        let lastvalue = colors.pop();
+        colors.unshift(lastvalue);
+    }
+</script>
+</body>
+</html>
