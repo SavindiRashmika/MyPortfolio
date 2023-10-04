@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/Que/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/Que/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web Development/JavaScript/Java-Script/Java_Script" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -107,7 +108,8 @@
       <workItem from="1696048570423" duration="27757000" />
       <workItem from="1696130884191" duration="1209000" />
       <workItem from="1696307748409" duration="16721000" />
-      <workItem from="1696344582552" duration="2346000" />
+      <workItem from="1696344582552" duration="3330000" />
+      <workItem from="1696393967563" duration="4493000" />
     </task>
     <servers />
   </component>

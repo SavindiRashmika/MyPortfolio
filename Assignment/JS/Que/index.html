@@ -6,31 +6,46 @@
     <meta name="viewport" content="width=device-width initial, scale=1.0">
     <link rel="stylesheet" href="../../CSS/Case_1/assets/necolas.github.io_normalize.css_8.0.1_normalize.css">
   <style>
-    section{
-      display: flex;
-      justify-content: center;
+      body{
+          background-color: grey;
+      }
+      section {
+          position: relative;
+          left: 25%;
+          display: inline-block;
+      }
+    .div{
+        width: 650px;
+        height: 2px;
+        background-color: #fffafa;
+        display: block;
+        left: 25%;
+    }
+      #line-1 {
+          position: relative;
+          top: 108px;
+      }
+    #line-2{
+        position: relative;
+        top: 190px;
     }
     div{
       width: 100px;
       height: 50px;
-      border: 1px solid black;
+        border-radius: 10px;
       display: inline-block;
         position: relative;
+    }
+    #middle{
+        top: 180px;
+        left: 9%;
     }
     #div1{
       top: 100px;
     }
-    #div2{
-      top: 150px;
-    }
-    #div3{
-      top: 150px;
-    }
-    #div4{
-      top: 150px;
-    }
     #div5{
-      top: 200px;
+      top: 270px;
+        left: 18%;
     }
   </style>
 </head>
@@ -38,17 +53,21 @@
 <body>
 <section>
       <div id="div1"></div>
+    <section id="middle">
       <div id="div2"></div>
       <div id="div3"></div>
       <div id="div4"></div>
+    </section>
       <div id="div5"></div>
 </section>
+    <div id="line-1" class="div"></div>
+    <div id="line-2" class="div"></div>
 
 <script>
     var colors = new Array("pink","green","blue","red","purple");
     let divs = document.querySelectorAll("section>div");
 
-    setInterval(prograss,300);
+    setInterval(prograss,400);
 
     function prograss(){
 
