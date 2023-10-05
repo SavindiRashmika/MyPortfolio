@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/Que/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/Que/Case_1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +32,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/JS/Que" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que" />
       <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\CSS_Framework\POS\assets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\CSS_Framework\POS" />
-      <recent name="E:\Work Zone\MyPortfolio\assets\screenShot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_2" />
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
-      <recent name="E:\Work Zone\MyPortfolio\assets\media" />
     </key>
   </component>
   <component name="RunManager">
@@ -125,7 +124,7 @@
       <workItem from="1696307748409" duration="16721000" />
       <workItem from="1696344582552" duration="3330000" />
       <workItem from="1696393967563" duration="6678000" />
-      <workItem from="1696482472615" duration="9112000" />
+      <workItem from="1696482472615" duration="11321000" />
     </task>
     <servers />
   </component>
