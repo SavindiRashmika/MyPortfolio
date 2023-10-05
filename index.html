@@ -13,9 +13,13 @@
     <link rel="stylesheet" href="Stylesheet.css">
     <link rel="stylesheet" href="assets/fontAsome/fontawesome-free-6.4.2-web/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
+<section id="loader">
+    <div></div>
+</section>
 <header>
         <nav class="nav1">
             <input type="checkbox" id="check">
@@ -35,6 +39,7 @@
     </header>
 
 <main>
+
 <!-- page 1 -->
         <section class="page1">
             <section>
@@ -311,5 +316,15 @@
         </section>
     </footer>
 
+<script src="Assignment/JS/asets/js/bootstrap.bundle.js"></script>
+<script src="Assignment/JS/asets/js/jquery-3.7.1.min.js"></script>
+
+<script>
+    $(window).on('load',function (){
+        // $("#loader").css('display','none');
+        $("#loader").fadeOut(8000);
+        console.log("Window is fully loaded");
+    });
+</script>
 </body>
 </html>
