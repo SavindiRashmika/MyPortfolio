@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/Que/Case_2/assest/Knight-Rider.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/asets/Knight-Rider.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/Que/Case_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/Que/Case_2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +46,21 @@
       <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\CSS_Framework\POS\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\asets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_2" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\Transition\Case_1" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,7 +126,8 @@
       <workItem from="1696344582552" duration="3330000" />
       <workItem from="1696393967563" duration="6678000" />
       <workItem from="1696482472615" duration="11571000" />
-      <workItem from="1696598977818" duration="9779000" />
+      <workItem from="1696598977818" duration="10279000" />
+      <workItem from="1696612709473" duration="662000" />
     </task>
     <servers />
   </component>
