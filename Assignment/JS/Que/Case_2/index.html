@@ -17,12 +17,30 @@
     img{
       width: 100px;
       height: 100px;
+    }
+    #house{
       position: relative;
+      top: 98px;
+      left: 50px;
     }
     .house{
       width: 200px;
       height: 200px;
-      position: relative;
+      position: absolute;
+      right: 0;
+      top: 100px;
+      display: contents;
+    }
+    #sunrise{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-radius: 100px;
+      bottom: 160px;
+      margin: auto;
+      margin-right: 100px;
     }
   </style>
 </head>
@@ -56,9 +74,9 @@
   </section>
 
   <section>
-    <div class="house"><img src=""></div>
-    <div></div>
-    <div></div>
+    <div id="sunrise">
+      <div class="house"><img id="house" src="assest/giphy.gif"></div>
+    </div>
   </section>
 
 </section>
@@ -67,6 +85,7 @@
 <script>
   var letters = new Array("A","B","C","D","E","F");
   var divs = document.querySelectorAll(" section>section:nth-child(1)>div>div");
+  // var color = document.querySelector("section:nth-child(2)>div>div");
 
   setInterval(prograss,600);
 
@@ -77,6 +96,26 @@
     let lastValue = letters.pop();
     letters.unshift(lastValue);
   }
+
+  // function colors(){
+  //   if (true){
+  //     color.style.background="yellow"
+  //   }
+  // }
+  let i = 0;
+  let colors = ['#FFE15D','#EFD595', '#F49D1A', '#EF9595','#DC3535','#B01E68'];
+
+  // Triggers every second
+  function changeColor(){
+    document.querySelector("section:nth-child(2)>div").style.backgroundColor = colors[i];
+    i++;
+    if(i>=colors.length){
+      i=0;  // Reset i to 0 if it exceeds colors length
+
+    }
+  }
+
+  setInterval(changeColor, 2000);
 
 </script>
 </body>
