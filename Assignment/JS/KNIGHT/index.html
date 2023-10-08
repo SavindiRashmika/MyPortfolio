@@ -95,6 +95,13 @@
     var lightNumber = 0;
     var direction= 'RIGHT';
 
+    // function myFunction() {
+    //     // let x = document.getElementById("myRange").value;
+    //     // document.getElementById("demo").innerHTML = x;
+    //
+    //     h1.innerText = rangeBtn.value;
+    // }
+
     function colorPrograss(){
         divs[lightNumber].style.background='#EC7063';
 
@@ -120,6 +127,15 @@
             direction = 'RIGHT';
         }
     }
+
+    // function time(){
+    //     if(){
+    //
+    //     }
+    // }
+    rangeBtn.addEventListener("click",function (){
+        h1.innerText = rangeBtn.value;
+    });
 
     startBtn.addEventListener("click",function(){
             document.getElementById("myAudio").play();

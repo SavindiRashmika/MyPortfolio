@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../asets/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<section>
+    <table >
+        <div>
+           <input id="textArea" type="text" >
+        </div>
+        <tbody>
+        <tr>
+            <td><input type="button" value="C" onclick="clearResult('C')"></td>
+            <td><input type="button" value="B" onclick="back('B')"></td>
+            <td><input type="button" value="X" onclick="displayValue('*')"></td>
+            <td><input type="button" value="/" onclick="displayValue('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="displayValue('7')"></td>
+            <td><input type="button" value="8" onclick="displayValue('8')"></td>
+            <td><input type="button" value="9" onclick="displayValue('9')"></td>
+            <td><input type="button" value="+" onclick="displayValue('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="displayValue('4')"></td>
+            <td><input type="button" value="5" onclick="displayValue('5')"></td>
+            <td><input type="button" value="6" onclick="displayValue('6')"></td>
+            <td><input type="button" value="-" onclick="displayValue('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="displayValue('1')"></td>
+            <td><input type="button" value="2" onclick="displayValue('2')"></td>
+            <td><input type="button" value="3" onclick="displayValue('3')"></td>
+            <td rowspan="4"><input id="total" type="button" value="=" onclick="solve('=')"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input id="zero" type="button" value="0" onclick="displayValue('0')"></td>
+            <td><input type="button" value="." onclick="displayValue('.')"></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<script>
+      var result = document.getElementById("textArea");
+    function displayValue(val) {
+       result.value += val;
+    }
+
+    function solve() {
+        result.value = eval(result.value);
+    }
+
+    function back(){
+
+    }
+
+    function clearResult() {
+        result.value = "";
+    }
+</script>
+
+</body>
+</html>
