@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/ItemController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/ItemValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/models/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +137,7 @@
       <workItem from="1696662932275" duration="6769000" />
       <workItem from="1696689823212" duration="9639000" />
       <workItem from="1696737508164" duration="23333000" />
-      <workItem from="1696823974553" duration="1958000" />
+      <workItem from="1696823974553" duration="18478000" />
     </task>
     <servers />
   </component>
