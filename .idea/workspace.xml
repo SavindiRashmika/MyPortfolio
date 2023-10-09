@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/open.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/CAL/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/CAL/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/KNIGHT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,34 +35,36 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Claculate/Claculate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\assets" />
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA\controller\validations" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_2\assest" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que" />
-      <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment\CSS\CSS_Framework\POS\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA\db" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\asets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_2" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,7 +134,8 @@
       <workItem from="1696612709473" duration="1001000" />
       <workItem from="1696662932275" duration="6769000" />
       <workItem from="1696689823212" duration="9639000" />
-      <workItem from="1696737508164" duration="16140000" />
+      <workItem from="1696737508164" duration="23333000" />
+      <workItem from="1696823974553" duration="1958000" />
     </task>
     <servers />
   </component>
