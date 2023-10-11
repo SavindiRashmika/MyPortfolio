@@ -23,7 +23,7 @@ setBtn();
 //disable tab
 $("#txtItemId,#txtItemName,#txtQty,#txtPrice").on("keydown keyup", function (e) {
     //get the index number of data input fields indexNo
-    let indexNo = item_vArray.indexOf(item_vArray.find((c) => c.field.attr("id") == e.target.id));
+    let indexNoItem = item_vArray.indexOf(item_vArray.find((i) => i.field.attr("id") == e.target.id));
 
     //Disable tab key
     if (e.key == "Tab") {
@@ -31,21 +31,21 @@ $("#txtItemId,#txtItemName,#txtQty,#txtPrice").on("keydown keyup", function (e) 
     }
 
     //check validations
-    checkValidations(item_vArray[indexNo]);
+    checkValidations(item_vArray[indexNoItem]);
 
     setBtn();
 
     //If the enter key pressed cheque and focus
     if (e.key == "Enter") {
 
-        if (e.target.id != item_vArray[item_vArray.length - 1].field.attr("id")) {
+        if (e.target.id != item_vArray[item_vArray.length - 1].field.attr("code")) {
             //check validation is ok
-            if (checkValidations(c_vArray[indexNo])) {
-                c_vArray[indexNo + 1].field.focus();
+            if (checkValidations(item_vArray[indexNoItem])) {
+                item_vArray[indexNoItem + 1].field.focus();
             }
         } else {
-            if (checkValidations(c_vArray[indexNo])) {
-                saveCustomer();
+            if (checkValidations(item_vArray[indexNoItem])) {
+                saveItem();
             }
         }
     }
@@ -85,7 +85,7 @@ function checkAll() {
 }
 
 function setBtn() {
-    $("#btnItemDelete").prop("disabled", true);
+     $("#btnItemDelete").prop("disabled", true);
     $("#btnItemUpdate").prop("disabled", true);
 
     if (checkAll()) {
@@ -94,9 +94,9 @@ function setBtn() {
         $("#btnItem").prop("disabled", true);
     }
 
-    let id = $("#txtItemId").val();
-    if (searchItem(id) == undefined) {
-        $("#btnItemDelete").prop("disabled", true);
+    let code = $("#txtItemId").val();
+    if (searchItem(code) == undefined) {
+        $("#btnItemDelete").prop("disabled", false);
         $("#btnItemUpdate").prop("disabled", true);
     } else {
         $("#btnItemDelete").prop("disabled", false);

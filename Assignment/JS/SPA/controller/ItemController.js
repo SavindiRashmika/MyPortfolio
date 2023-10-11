@@ -74,8 +74,6 @@ function bindITrEvents() {
 }
 function searchItem(code) {
     return itemDB.find(function (item) {
-        //if the search id match with customer record
-        //then return that object
         return item.code == code;
     });
 }

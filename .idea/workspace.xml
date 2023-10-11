@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/ItemController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/ItemValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/models/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/CAL/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/CAL/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/CustomerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/ItemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/ItemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/CustomerValidations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/CustomerValidations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/ItemValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/ItemValidation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web Development/pos-git/MyPrtfolio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -56,21 +56,6 @@
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -137,7 +122,9 @@
       <workItem from="1696662932275" duration="6769000" />
       <workItem from="1696689823212" duration="9639000" />
       <workItem from="1696737508164" duration="23333000" />
-      <workItem from="1696823974553" duration="18478000" />
+      <workItem from="1696823974553" duration="21856000" />
+      <workItem from="1696911891897" duration="10721000" />
+      <workItem from="1696999585472" duration="12665000" />
     </task>
     <servers />
   </component>

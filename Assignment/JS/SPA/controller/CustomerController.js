@@ -1,7 +1,11 @@
 getAllCustomers();
 
 $("#btnCustomer").click(function () {
-    saveCustomer();
+    if (checkAllCust()){
+        saveCustomer();
+    }else{
+        alert("Error");
+    }
 });
 
 $("#btnCustGetAll").click(function () {

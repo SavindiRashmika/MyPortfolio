@@ -1,27 +1,27 @@
 // validation for customers
 const CUS_ID_REGEX = /^(C00-)[0-9]{3}$/;
 const CUS_NAME_REGEX = /^[A-Za-z ]{5,}$/;
-const CUS_ADDRESS_REGEX = /^[A-Za-z ]{8,}$/;
+const CUS_ADDRESS_REGEX = /^[A-Za-z ]{3,}$/;
 const CUS_SALARY_REGEX = /^[0-9]{2,}([.][0-9]{2})?$/;
 
 //add validations and text fields to the
 let c_vArray = new Array();
 c_vArray.push({field: $("#txtCustomerID"), regEx: CUS_ID_REGEX});
 c_vArray.push({field: $("#txtCustomerName"), regEx: CUS_NAME_REGEX});
-// c_vArray.push({field: $("#txtCustomerAddress"), regEx: CUS_ADDRESS_REGEX});
+c_vArray.push({field: $("#txtCustomerAddress"), regEx: CUS_ADDRESS_REGEX});
 c_vArray.push({field: $("#txtCustomerSalary"), regEx: CUS_SALARY_REGEX});
 
 function clearCustomerInputFields() {
     $("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").val("");
     $("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").css("border", "1px solid #ced4da");
     $("#txtCustomerID").focus();
-    setBtn();
+    setBtnCus();
 }
 
-setBtn();
+setBtnCus();
 
 //disable tab
-$("#txtCustomerID,#txtCustomerName,#txtCustomerSalary").on("keydown keyup", function (e) {
+$("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on("keydown keyup", function (e) {
     //get the index number of data input fields indexNo
     let indexNo = c_vArray.indexOf(c_vArray.find((c) => c.field.attr("id") == e.target.id));
 
@@ -31,20 +31,20 @@ $("#txtCustomerID,#txtCustomerName,#txtCustomerSalary").on("keydown keyup", func
     }
 
     //check validations
-    checkValidations(c_vArray[indexNo]);
+    checkValidationsCust(c_vArray[indexNo]);
 
-    setBtn();
+    setBtnCus();
 
     //If the enter key pressed cheque and focus
     if (e.key == "Enter") {
 
         if (e.target.id != c_vArray[c_vArray.length - 1].field.attr("id")) {
             //check validation is ok
-            if (checkValidations(c_vArray[indexNo])) {
+            if (checkValidationsCust(c_vArray[indexNo])) {
                 c_vArray[indexNo + 1].field.focus();
             }
         } else {
-            if (checkValidations(c_vArray[indexNo])) {
+            if (checkValidationsCust(c_vArray[indexNo])) {
                 saveCustomer();
             }
         }
@@ -52,16 +52,16 @@ $("#txtCustomerID,#txtCustomerName,#txtCustomerSalary").on("keydown keyup", func
 });
 
 
-function checkValidations(object) {
+function checkValidationsCust(object) {
     if (object.regEx.test(object.field.val())) {
-        setBorder(true, object)
+        setBorderCust(true, object)
         return true;
     }
-    setBorder(false, object)
+    setBorderCust(false, object)
     return false;
 }
 
-function setBorder(bol, ob) {
+function setBorderCust(bol, ob) {
     if (!bol) {
         if (ob.field.val().length >= 1) {
             ob.field.css("border", "2px solid red");
@@ -78,18 +78,18 @@ function setBorder(bol, ob) {
 
 }
 
-function checkAll() {
+function checkAllCust() {
     for (let i = 0; i < c_vArray.length; i++) {
-        if (!checkValidations(c_vArray[i])) return false;
+        if (!checkValidationsCust(c_vArray[i])) return false;
     }
     return true;
 }
 
-function setBtn() {
+function setBtnCus() {
     $("#btnCusDelete").prop("disabled", true);
     $("#btnUpdate").prop("disabled", true);
 
-    if (checkAll()) {
+    if (checkAllCust()) {
         $("#btnCustomer").prop("disabled", false);
     } else {
         $("#btnCustomer").prop("disabled", true);
