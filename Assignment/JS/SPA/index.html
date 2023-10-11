@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../../CSS_Framework/POS/assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../assets/fontAsome/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
 <body>
 <header>
@@ -21,12 +22,6 @@
                     <li class="nav-item" id="orders">
                         <a class="nav-link" href="#">Orders</a>
                     </li>
-<!--                    <li class="nav-item" id="item">-->
-<!--                        <a class="nav-link" href="#">Item</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item" id="customer">-->
-<!--                        <a class="nav-link" href="#">Customer</a>-->
-<!--                    </li>-->
                     <li class="nav-item" id="custForm">
                         <a class="nav-link" href="#">CustomerForm</a>
                     </li>
@@ -55,11 +50,40 @@
     </nav>
 </header>
 
+<section id="Dashboard">
+    <div class="container text-center" style="padding-top: 90px;">
+        <div class="row">
+            <div class="card text-bg-primary mb-3" style="max-width: 18rem; height: 300px; margin: 30px">
+                <div class="card-body">
+                    <div class="card-header">Customer Count</div>
+                    <div><i class="fas fa-user" style="font-size: 80px; margin-top: 30px"></i></div>
+                    <h2 id="cusCount" style="margin-top: 30px">03</h2>
+                </div>
+            </div>
+            <div class="card text-bg-secondary mb-3" style="max-width: 18rem; height: 300px ; margin: 30px">
+                <div class="card-body">
+                    <div class="card-header">Item Count</div>
+                    <div><i class="fas fa-first-order" style="font-size: 80px; margin-top: 30px"></i></div>
+                    <h2 id="itemCount" style="margin-top: 30px">03</h2>
+                </div>
+            </div>
+            <div class="card text-bg-success mb-3" style="max-width: 18rem; height: 300px; margin: 30px">
+                <div class="card-body">
+                    <div class="card-header">Order Count</div>
+                    <div><i class="fas fa-list-check" style="font-size: 80px; margin-top: 30px"></i></div>
+                    <h2 id="orderCount" style="margin-top: 30px">000</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="CustomerFormManage">
+    <h2 style="margin: 20px"><i class="fa-solid fa-list-check"></i>   Customer Manage</h2>
     <div class="container text-center">
         <div class="row align-items-start">
             <div class="col-5 mb-3">
-                <div class="card border-success " style="max-width: 25rem; height: 480px;">
+                <div class="card border-success " style="max-width: 25rem; height: 460px;">
                     <div class="card-header text-white bg-success">Customer Form</div>
                     <div class="card-body m-3">
                         <form>
@@ -121,11 +145,11 @@
 </section>
 
 <section id="ItemFormManage">
-
+    <h2 style="margin: 15px"><i class="fa-solid fa-list-check"></i>  Item Manage</h2>
     <div class="container text-center">
         <div class="row align-items-start">
-            <div class="col-5">
-                <div class="card border-success " style="max-width: 25rem; height: 480px;">
+            <div class="col-5 mb-3">
+                <div class="card border-success " style="max-width: 25rem; height: 465px;">
                     <div class="card-header text-white bg-success">Item Form</div>
                     <div class="card-body m-3">
                         <form>
@@ -133,27 +157,31 @@
                                 <div class="mb-1">
                                     <label for="txtItemId" class="form-label">Item Code :</label>
                                     <input type="text" class="form-control" id="txtItemId">
+                                    <span class="control-error" id="lblitemid"></span>
                                 </div>
                                 <div class="mb-1">
                                     <label for="txtItemName" class="form-label">Item Name :</label>
                                     <input type="text" class="form-control" id="txtItemName">
+                                    <span class="control-error" id="lblname"></span>
                                 </div>
                                 <div class="mb-1">
                                     <label for="txtQty" class="form-label">Item Qty :</label>
                                     <input type="text" class="form-control" id="txtQty">
+                                    <span class="control-error" id="lblqty"></span>
                                 </div>
                                 <div class="mb-1">
                                     <label for="txtPrice" class="form-label">Item Price :</label>
-                                    <input type="text" class="form-control mb-2" id="txtPrice">
+                                    <input type="text" class="form-control mb-1" id="txtPrice">
+                                    <span class="control-error" id="lblprice"></span>
                                 </div>
                                 <div class="btn-group " role="group" aria-label="Basic example">
                                     <button id="btnItem" type="button" class="btn btn-danger" style="width: 100px">Save</button>
                                     <button id="btnItemUpdate" type="button" class="btn btn-warning" style="width: 100px">Update</button>
                                     <button id="btnItemDelete" type="button" class="btn btn-success" style="width: 100px">Delete</button>
                                 </div>
-                                <div class="btn-group m-3" role="group" aria-label="Basic example">
-                                    <button id="btnItemGet" type="button" class="btn btn-warning" style="width: 100px">Get All</button>
-                                    <button id="btnItemClear" type="button" class="btn btn-success" style="width: 100px">Clear</button>
+                                <div class="btn-group m-1" role="group" aria-label="Basic example">
+                                    <button id="btnItemGet" type="button" class="btn btn-warning" style="width: 100px; height: 35px">Get All</button>
+                                    <button id="btnItemClear" type="button" class="btn btn-success" style="width: 100px; height: 35px">Clear</button>
                                 </div>
                             </div>
                         </form>
@@ -180,7 +208,7 @@
 </section>
 
 <main id="orderManage">
-    <h2><i class="fa-solid fa-list-check"></i>Order Manage</h2>
+    <h2 style="margin: 20px"><i class="fa-solid fa-list-check"></i>   Order Manage</h2>
     <section class="mt-4 m-lg-4" style="width: 95vw; height: 75vh; border: 1px solid black">
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -337,45 +365,50 @@
 <script src="../asets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
 <script>
 
-    let customer = document.querySelector("#CustomerFormManage");
-    let item = document.querySelector("#ItemFormManage");
-    let order = document.querySelector("#orderManage");
-    // let tBody = document.querySelector("#tblCustomer");
+    // let customer = document.querySelector("#CustomerFormManage");
+    // let item = document.querySelector("#ItemFormManage");
+    // let order = document.querySelector("#orderManage");
+    // // let tBody = document.querySelector("#tblCustomer");
+    //
+    // customer.style.display ='none';
+    // item.style.display ='none';
+    // order.style.display ='none';
+    //
+    // let lnkHome = document.querySelector("#home");
+    // let lnkOrder = document.querySelector("#orders");
+    // let lnkCustForm =document.querySelector("#custForm");
+    // let lnkIForm =document.querySelector("#IForm");
+    //
+    // lnkCustForm.addEventListener("click",function (){
+    //     customer.style.display ='block';
+    //     item.style.display ='none';
+    //     order.style.display ='none';
+    // })
+    //
+    // lnkIForm.addEventListener("click",function (){
+    //     customer.style.display ='none';
+    //     item.style.display ='block';
+    //     order.style.display ='none';
+    // })
+    //
+    // lnkHome.addEventListener("click",function (){
+    //     customer.style.display ='none';
+    //     item.style.display ='none';
+    //     order.style.display ='none';
+    //
+    // })
+    //
+    // lnkOrder.addEventListener("click",function (){
+    //     order.style.display = 'block';
+    //     customer.style.display ='none';
+    //     item.style.display ='none';
+    //
+    // })
 
-    customer.style.display ='none';
-    item.style.display ='none';
-    order.style.display ='none';
 
-    let lnkHome = document.querySelector("#home");
-    let lnkOrder = document.querySelector("#orders");
-    let lnkCustForm =document.querySelector("#custForm");
-    let lnkIForm =document.querySelector("#IForm");
 
-    lnkCustForm.addEventListener("click",function (){
-        customer.style.display ='block';
-        item.style.display ='none';
-        order.style.display ='none';
-    })
 
-    lnkIForm.addEventListener("click",function (){
-        customer.style.display ='none';
-        item.style.display ='block';
-        order.style.display ='none';
-    })
 
-    lnkHome.addEventListener("click",function (){
-        customer.style.display ='none';
-        item.style.display ='none';
-        order.style.display ='none';
-
-    })
-
-    lnkOrder.addEventListener("click",function (){
-        order.style.display = 'block';
-        customer.style.display ='none';
-        item.style.display ='none';
-
-    })
     // let btnSave= document.querySelector("#btnCustomer");
     // let btnCustGetAll=document.querySelector("#btnCustGetAll");
 
@@ -500,6 +533,7 @@
     // }
 
 </script>
+<script src="controller/DashboardController.js"></script>
 <script src="db/db.js"></script>
 <script src="models/Customer.js"></script>
 <script src="controller/CustomerController.js"></script>
