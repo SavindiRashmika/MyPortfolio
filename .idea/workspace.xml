@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/DashboardController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/OrderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/OrderValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/models/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/CustomerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/DashboardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/DashboardController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web Development/pos-git/MyPrtfolio" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/InMemoryPos/InMemoryPos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -134,7 +139,9 @@
       <workItem from="1696737508164" duration="23333000" />
       <workItem from="1696823974553" duration="21856000" />
       <workItem from="1696911891897" duration="10721000" />
-      <workItem from="1696999585472" duration="18631000" />
+      <workItem from="1696999585472" duration="21195000" />
+      <workItem from="1697121295323" duration="4860000" />
+      <workItem from="1697174654567" duration="23940000" />
     </task>
     <servers />
   </component>

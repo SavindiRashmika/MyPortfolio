@@ -41,4 +41,11 @@ lnkOrder.addEventListener("click",function (){
     customer.style.display ='none';
     item.style.display ='none';
     dash.style.display = 'none';
+    loadAllCusID();
+    loadAllItemID();
 })
+
+function cusCount(){
+    var arrayLength = customerDB.length;
+    $('#cusCount').text(arrayLength);
+}

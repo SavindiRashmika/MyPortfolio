@@ -3,6 +3,7 @@ getAllCustomers();
 $("#btnCustomer").click(function () {
     if (checkAllCust()){
         saveCustomer();
+        cusCount();
     }else{
         alert("Error");
     }
@@ -10,6 +11,7 @@ $("#btnCustomer").click(function () {
 
 $("#btnCustGetAll").click(function () {
     getAllCustomers();
+    loadAllCusID();
 });
 
 $("#btnClear").click(function () {
