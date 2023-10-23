@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/OrderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/OrderValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/models/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/CustomerController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/DashboardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/DashboardController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/ItemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/ItemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/OrderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/OrderController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/OrderValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/controller/validations/OrderValidation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/db/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigment.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/InMemoryPos/InMemoryPos" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/kkk/MyPortfolio/assignments/JS/In Memory POS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -58,19 +60,6 @@
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_1" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -141,7 +130,16 @@
       <workItem from="1696911891897" duration="10721000" />
       <workItem from="1696999585472" duration="21195000" />
       <workItem from="1697121295323" duration="4860000" />
-      <workItem from="1697174654567" duration="23940000" />
+      <workItem from="1697174654567" duration="24698000" />
+      <workItem from="1697258650017" duration="11591000" />
+      <workItem from="1697345008640" duration="5249000" />
+      <workItem from="1697443227682" duration="692000" />
+      <workItem from="1697477536393" duration="804000" />
+      <workItem from="1697557530160" duration="3327000" />
+      <workItem from="1697806355057" duration="3732000" />
+      <workItem from="1697860920767" duration="13228000" />
+      <workItem from="1697952472443" duration="14003000" />
+      <workItem from="1698034446451" duration="7318000" />
     </task>
     <servers />
   </component>

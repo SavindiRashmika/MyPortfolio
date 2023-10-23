@@ -3,6 +3,7 @@ getAllItem();
 $("#btnItem").click(function (){
     if (checkAll()){
         saveItem();
+        ItemCount();
     }else{
         alert("Error");
     }
@@ -24,10 +25,11 @@ function saveItem(){
     newItem.unitPrice = itemPrice;
 
     itemDB.push(newItem);
+        clearItemInputFields();
     getAllItem();
 
     } else {
-        alert("Customer already exits.!");
+        alert("Item already exits.!");
         clearItemInputFields();
     }
 }
@@ -96,6 +98,7 @@ $("#btnItemDelete").click(function (){
         let response = deleteItem(code);
         if (response){
             alert("Item Deleted");
+            clearItemInputFields();
             getAllItem();
         }else{
             alert("Item Not Removed..!")
@@ -133,3 +136,7 @@ $("#btnItemUpdate").click(function () {
 $("#btnItemClear").click(function () {
     clearItemInputFields();
 });
+
+function ItemCount() {
+    $("#itemCount")[0].innerText = itemDB.length;
+}

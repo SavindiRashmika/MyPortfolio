@@ -347,7 +347,7 @@ figcaption{
     height: 50px;
 }
 .assi-main{
-    height: 200vh;
+    height: 220vh;
     background-color: black;
     position: relative;
 
@@ -1101,7 +1101,7 @@ body > section {
         left: 30%;
     }
     .assi-main {
-        height: 242vh;
+        height: 260vh;
         background-color: black;
         position: relative;
     }
@@ -1413,7 +1413,7 @@ body > section {
         overflow: hidden;
     }
     .assi-main {
-        height: 341vh;
+        height: 408vh;
         background-color: black;
         position: relative;
     }
@@ -1520,7 +1520,7 @@ body > section {
         bottom: 20px;
     }
     .assi-main {
-        height: 370vh;
+        height: 400vh;
         background-color: black;
         position: relative;
     }
@@ -1581,7 +1581,7 @@ body > section {
     }
 
     .assi-main {
-        height: 436vh;
+        height: 590vh;
         background-color: black;
         position: relative;
     }
@@ -2064,7 +2064,7 @@ body > section {
         /* right: 80px; */
     }
     .assi-main {
-        height: 436vh;
+        height: 590vh;
         background-color: black;
         position: relative;
     }
@@ -2313,7 +2313,7 @@ body > section {
 }
 @media all and (max-width: 320px){
     .assi-main {
-        height: 470vh;
+        height: 530vh;
         background-color: black;
         position: relative;
     }

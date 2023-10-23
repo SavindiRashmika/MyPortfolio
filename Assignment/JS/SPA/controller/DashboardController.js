@@ -15,6 +15,7 @@ let lnkOrder = document.querySelector("#orders");
 let lnkCustForm =document.querySelector("#custForm");
 let lnkIForm =document.querySelector("#IForm");
 
+
 lnkCustForm.addEventListener("click",function (){
     customer.style.display ='block';
     item.style.display ='none';
@@ -34,6 +35,9 @@ lnkHome.addEventListener("click",function (){
     item.style.display ='none';
     order.style.display ='none';
     dash.style.display = 'block';
+    CusCount();
+    ItemCount();
+    OrderCount();
 })
 
 lnkOrder.addEventListener("click",function (){
@@ -45,7 +49,3 @@ lnkOrder.addEventListener("click",function (){
     loadAllItemID();
 })
 
-function cusCount(){
-    var arrayLength = customerDB.length;
-    $('#cusCount').text(arrayLength);
-}

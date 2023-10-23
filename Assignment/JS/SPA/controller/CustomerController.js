@@ -3,7 +3,7 @@ getAllCustomers();
 $("#btnCustomer").click(function () {
     if (checkAllCust()){
         saveCustomer();
-        cusCount();
+        CusCount();
     }else{
         alert("Error");
     }
@@ -83,7 +83,7 @@ function bindTrEvents() {
 function saveCustomer() {
     let customerID = $("#txtCustomerID").val();
     //check customer is exists or not?
-    // if (searchCustomer(customerID.trim()) == undefined) {
+    if (searchCustomer(customerID.trim()) == undefined) {
 
         //if the customer is not available then add him to the array
         let customerName = $("#txtCustomerName").val();
@@ -105,10 +105,10 @@ function saveCustomer() {
         clearCustomerInputFields();
         getAllCustomers();
 
-    // } else {
-    //     alert("Customer already exits.!");
-    //     clearCustomerInputFields();
-    // }
+    } else {
+        alert("Customer already exits.!");
+        clearCustomerInputFields();
+    }
 }
 
 function deleteCustomer(id) {
@@ -150,4 +150,7 @@ function updateCustomer(id) {
         }
     }
 
+}
+function CusCount() {
+    $("#cusCount")[0].innerText = customerDB.length;
 }

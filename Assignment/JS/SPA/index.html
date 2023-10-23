@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>POS</title>
     <link rel="stylesheet" href="../../CSS_Framework/POS/assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../../../assets/fontAsome/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
@@ -19,24 +19,14 @@
                     <li class="nav-item" id="home">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item" id="orders">
-                        <a class="nav-link" href="#">Orders</a>
-                    </li>
                     <li class="nav-item" id="custForm">
                         <a class="nav-link" href="#">CustomerForm</a>
                     </li>
                     <li class="nav-item" id="IForm">
                         <a class="nav-link" href="#">ItemForm</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Others
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item" id="orders">
+                        <a class="nav-link" href="#">Orders</a>
                     </li>
                 </ul>
             </div>
@@ -57,21 +47,21 @@
                 <div class="card-body ">
                     <div class="card-header">Customer Count</div>
                     <div><i class="fas fa-user" style="font-size: 80px; margin-top: 30px"></i></div>
-                    <label id="cusCount" style="margin-top: 30px"></label>
+                    <h2 id="cusCount" style="margin-top: 30px">3</h2>
                 </div>
             </div>
             <div class="card text-bg-secondary mb-3 col-10 col-sm-12 col-md-4 col-lg-3 col-xl-4 " style="max-width: 18rem; height: 300px ; margin: 30px">
                 <div class="card-body">
                     <div class="card-header">Item Count</div>
                     <div><i class="fas fa-first-order" style="font-size: 80px; margin-top: 30px"></i></div>
-                    <h2 id="itemCount" style="margin-top: 30px">03</h2>
+                    <h2 id="itemCount" style="margin-top: 30px">3</h2>
                 </div>
             </div>
             <div class="card text-bg-success mb-3 col-10 col-sm-12 col-md-4 col-lg-3 col-xl-4 " style="max-width: 18rem; height: 300px; margin: 30px">
                 <div class="card-body">
                     <div class="card-header">Order Count</div>
                     <div><i class="fas fa-list-check" style="font-size: 80px; margin-top: 30px"></i></div>
-                    <h2 id="orderCount" style="margin-top: 30px">000</h2>
+                    <h2 id="orderCount" style="margin-top: 30px">0</h2>
                 </div>
             </div>
         </div>
@@ -89,8 +79,8 @@
                         <form>
                             <div class="row mb-4 justify-content-center">
                                 <div class="mb-1">
-                                    <label for="txtCustomerID">Customer ID</label>
-                                    <input class="form-control" id="txtCustomerID" required type="text">
+                                    <label for="txtCustomerID">Customer ID </label>
+                                    <input class="form-control" id="txtCustomerID" required type="text" placeholder="C00-___">
                                     <span class="control-error" id="lblcusid"></span>
                                 </div>
                                 <div class="mb-1">
@@ -155,8 +145,8 @@
                         <form>
                             <div class="row mb-4 justify-content-center">
                                 <div class="mb-1">
-                                    <label for="txtItemId" class="form-label">Item Code :</label>
-                                    <input type="text" class="form-control" id="txtItemId">
+                                    <label for="txtItemId" class="form-label">Item Code </label>
+                                    <input type="text" class="form-control" id="txtItemId" placeholder="I00-___">
                                     <span class="control-error" id="lblitemid"></span>
                                 </div>
                                 <div class="mb-1">
@@ -220,10 +210,10 @@
                             <form>
                                 <div class="row">
                                     <div class="col">
-                                        <input id="OederId" type="text" class="form-control mb-2" placeholder="Order Id" aria-label="First name">
+                                        <input id="OrderId" type="text" class="form-control mb-2" placeholder="ID: OID-_ _ _" >
                                     </div>
                                     <div class="col">
-                                        <input id="OrderDate" type="text" class="form-control mb-2" placeholder="Last name" aria-label="Last name">
+                                        <input id="OrderDate" type="text" class="form-control mb-2" >
                                     </div>
                                 </div>
                                 <div class="row">
@@ -235,15 +225,15 @@
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input id="CusAutoName" type="text" class="form-control mb-2" placeholder="Name" aria-label="First name">
+                                        <input id="CusAutoName" type="text" class="form-control mb-2" placeholder="Name" >
                                     </div>
                                     <div class="col">
-                                        <input id="CusAutoSalary" type="text" class="form-control mb-2" placeholder="Salary" aria-label="Last name">
+                                        <input id="CusAutoSalary" type="text" class="form-control mb-2" placeholder="Salary" >
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input id="CusAutoAddres" type="text" class="form-control mb-2" placeholder="Address" aria-label="First name">
+                                        <input id="CusAutoAddres" type="text" class="form-control mb-2" placeholder="Address" >
                                     </div>
                                 </div>
                             </form>
@@ -266,18 +256,18 @@
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input id="IAutoName" type="text" class="form-control mb-2" placeholder="Item Name" aria-label="First name">
+                                        <input id="IAutoName" type="text" class="form-control mb-2" placeholder="Item Name" >
                                     </div>
                                     <div class="col">
-                                        <input id="IAutoPrice" type="text" class="form-control mb-2" placeholder="Price" aria-label="Last name">
+                                        <input id="IAutoPrice" type="text" class="form-control mb-2" placeholder="Price" >
                                     </div>
                                     <div class="col">
-                                        <input id="IAutoQty" type="text" class="form-control mb-2" placeholder="QtyOnH" aria-label="Last name">
+                                        <input id="IAutoQty" type="text" class="form-control mb-2" placeholder="QtyOnH" >
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input id="IAutoOrderQty" type="number" class="form-control mb-3" placeholder="Order QTY" aria-label="First name">
+                                        <input id="IOrderQty" type="number" class="form-control mb-3" placeholder="Order QTY" aria-label="First name">
                                     </div>
                                 </div>
 
@@ -290,8 +280,8 @@
                 <div class="col" style="max-width: 25rem; height: 180px;">
                     <div class="card" >
                         <div class="card-body">
-                            <h5 class="card-title">Total</h5>
-                            <h5 class="card-title">Sub Total</h5>
+                            <label>Total</label>
+                            <input class="form-control" id="Total" type="text">
                             <div class="row">
                                 <div class="col">
                                     <input type="text" class="form-control mb-2" placeholder="Cash" aria-label="Cash">
