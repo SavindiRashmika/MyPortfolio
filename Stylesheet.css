@@ -347,7 +347,7 @@ figcaption{
     height: 50px;
 }
 .assi-main{
-    height: 220vh;
+    height: 500vh;
     background-color: black;
     position: relative;
 
@@ -812,7 +812,7 @@ body > section {
         bottom: 20px;
     }
     .assi-main {
-        height: 215vh;
+        height: 270vh;
         background-color: black;
         position: relative;
     }
