@@ -47,7 +47,7 @@
 </section>
 
 <script>
-      var result = document.getElementById("textArea");
+    var result = document.getElementById("textArea");
     function displayValue(val) {
        result.value += val;
     }
@@ -57,7 +57,7 @@
     }
 
     function back(){
-
+           result.value = result.value.slice(0,-1);
     }
 
     function clearResult() {
