@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab2cb2-530b-4f2f-823a-29761e5903ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assigment.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/CAL/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/CAL/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/Customer_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/Customer_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/Customer_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/Dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/Item_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/Item_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/Item_manage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS_Framework/POS/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigment.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +40,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/kkk/MyPortfolio/assignments/JS/In Memory POS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work Zone\MyPortfolio" />
       <recent name="E:\Work Zone\MyPortfolio\assets" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA\controller\validations" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que\Case_2\assest" />
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\Que" />
-      <recent name="E:\Work Zone\MyPortfolio\Assignment\JS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Work Zone\MyPortfolio\Assignment\JS\SPA\db" />
@@ -132,7 +139,11 @@
       <workItem from="1697860920767" duration="13228000" />
       <workItem from="1697952472443" duration="14003000" />
       <workItem from="1698034446451" duration="7876000" />
-      <workItem from="1698044911827" duration="2872000" />
+      <workItem from="1698044911827" duration="3642000" />
+      <workItem from="1698123484960" duration="3129000" />
+      <workItem from="1698231608332" duration="2832000" />
+      <workItem from="1698331638671" duration="1930000" />
+      <workItem from="1698419155892" duration="1493000" />
     </task>
     <servers />
   </component>

@@ -450,7 +450,7 @@ figure>img {
 /*page3*/
 .page3{
     background-color: #000000;
-    height: 185vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     padding-left: 90px;
@@ -742,7 +742,7 @@ body > section {
         margin-left: -110px;
     }
     .page3 {
-        height: 218vh;
+        height: 190vh;
     }
     .page3-div1 {
         position: relative;
@@ -771,7 +771,7 @@ body > section {
         bottom: 6%;
     }
     .page4 {
-        height: 148vh;
+        height: 140vh;
     }
     .page4-figure {
         position: relative;
@@ -1005,7 +1005,7 @@ body > section {
 
     .page3 {
         background-color: #000000;
-        height: 245vh;
+        height: 235vh;
         display: flex;
         flex-direction: column;
         padding-left: 90px;

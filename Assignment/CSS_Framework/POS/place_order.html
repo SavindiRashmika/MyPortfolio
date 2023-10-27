@@ -2,16 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>POS Order</title>
+    <title>Order Form</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/font-awsome/css/all.min.css">
-    <!--    <style>-->
-    <!--        body{-->
-    <!--            background-color: black;-->
-    <!--        }-->
-    <!--    </style>-->
+
 </head>
 <body>
+
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -21,24 +18,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item" id="home">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="custForm">
+                        <a class="nav-link" href="#">CustomerForm</a>
+                    </li>
+                    <li class="nav-item" id="IForm">
+                        <a class="nav-link" href="#">ItemForm</a>
+                    </li>
+                    <li class="nav-item" id="orders">
                         <a class="nav-link" href="#">Orders</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Item</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Others
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
                     </li>
                 </ul>
             </div>
@@ -51,17 +41,11 @@
         </div>
     </nav>
 </header>
-<main>
-    <h2><i class="fa-solid fa-list-check"></i>Order Manage</h2>
-    <section class="mt-4 m-lg-4" style="width: 95vw; height: 75vh; border: 1px solid black">
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Order</li>
-            </ol>
-        </nav>
 
-        <div class="container text-center">
+<main id="orderManage">
+    <h2 style="margin: 20px"><i class="fa-solid fa-list-check"></i>   Order Manage</h2>
+    <section class="mt-4 m-lg-4" >
+        <div class="container text-center mb-3">
             <div class="row align-items-start">
                 <div class="col">
 
@@ -71,36 +55,30 @@
                             <form>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Order Id" aria-label="First name">
+                                        <input id="OrderId" type="text" class="form-control mb-2" placeholder="ID: OID-_ _ _" >
                                     </div>
                                     <div class="col">
-                                        <input type="Date" class="form-control mb-2" placeholder="Last name" aria-label="Last name">
+                                        <input id="OrderDate" type="text" class="form-control mb-2" >
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>C001</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
+                                    <div class="col mb-2">
+                                        <select id="MenuCus" class="form-select" aria-label="Default select example">
+                                            <option selected>Select ID</option>
                                         </select>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Customer ID" aria-label="Last name">
+                                        <input id="CusAutoName" type="text" class="form-control mb-2" placeholder="Name" >
+                                    </div>
+                                    <div class="col">
+                                        <input id="CusAutoSalary" type="text" class="form-control mb-2" placeholder="Salary" >
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Name" aria-label="First name">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Salary" aria-label="Last name">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Address" aria-label="First name">
+                                        <input id="CusAutoAddres" type="text" class="form-control mb-2" placeholder="Address" >
                                     </div>
                                 </div>
                             </form>
@@ -115,36 +93,30 @@
                         <div class="card-body m-3">
                             <form>
                                 <div class="row">
-                                    <div class="col">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>C001</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
+                                    <div class="col mb-2">
+                                        <select id="MenuItem" class="form-select" aria-label="Default select example">
+                                            <option selected>Select Code</option>
                                         </select>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Item Code" aria-label="Last name">
+                                        <input id="IAutoName" type="text" class="form-control mb-2" placeholder="Item Name" >
+                                    </div>
+                                    <div class="col">
+                                        <input id="IAutoPrice" type="text" class="form-control mb-2" placeholder="Price" >
+                                    </div>
+                                    <div class="col">
+                                        <input id="IAutoQty" type="text" class="form-control mb-2" placeholder="QtyOnH" >
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Item Name" aria-label="First name">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Price" aria-label="Last name">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="QtyOnH" aria-label="Last name">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-3" placeholder="Order QTY" aria-label="First name">
+                                        <input id="IOrderQty" type="number" class="form-control mb-3" placeholder="Order QTY" aria-label="First name">
                                     </div>
                                 </div>
 
-                                <button type="button" class="btn btn-primary btn-sm">Add Item</button>
+                                <button id="OrderSave" type="button" class="btn btn-primary btn-sm">Add Item</button>
                             </form>
                         </div>
                     </div>
@@ -153,8 +125,8 @@
                 <div class="col" style="max-width: 25rem; height: 180px;">
                     <div class="card" >
                         <div class="card-body">
-                            <h5 class="card-title">Total</h5>
-                            <h5 class="card-title">Sub Total</h5>
+                            <label>Total</label>
+                            <input class="form-control" id="Total" type="text">
                             <div class="row">
                                 <div class="col">
                                     <input type="text" class="form-control mb-2" placeholder="Cash" aria-label="Cash">
@@ -176,35 +148,25 @@
         </div>
 
 
-        <table class="table overflow-auto">
-            <thead >
+        <table class="table table-bordered table-hover">
+            <thead class="table-success bg-success">
             <tr class="table-success bg-success">
+                <th scope="col">Order ID</th>
+                <th scope="col">Customer ID</th>
                 <th scope="col">Item code</th>
-                <th scope="col">Item Name</th>
-                <th scope="col">Price</th>
-                <th scope="col">Quantity</th>
+                <th scope="col">Date</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">Qty</th>
                 <th scope="col">Total</th>
             </tr>
             </thead>
-            <tbody>
-            <tr>
-                <th scope="row">C001</th>
-                <td>soap</td>
-                <td>10</td>
-                <td>120.00</td>
-                <td>1200.00</td>
-            </tr>
-            <tr>
-                <th scope="row">C002</th>
-                <td>chocalate</td>
-                <td>30</td>
-                <td>1200.00</td>
-                <td>36000.00</td>
-            </tr>
+            <tbody id="tblOrder">
+
             </tbody>
         </table>
     </section>
 </main>
+
 <footer></footer>
 </body>
 </html>
